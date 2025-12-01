@@ -3,32 +3,116 @@
     {
       "id": "hero",
       "description": "一个充满未来感的可爱卡通城市夜景，发光的数据流像星星一样闪烁。",
-      "imageUrl": "https://images.unsplash.com/photo-1750088292550-5893193a7def?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYXJ0b29uJTIwZnV0dXJlJTIwY2l0eXxlbnwwfHx8fDE3NjQ2MzAwMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cartoon future city"
+      "imageUrl": "https://images.unsplash.com/photo-1734059013972-e6fab175bf65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjdXRlJTIwZnV0dXJlJTIwY2l0eXxlbnwwfHx8fDE3NjQ2MzA0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cute future city"
     },
     {
-      "id": "cats",
-      "description": "一只可爱的卡通黑猫和一只卡通白猫坐在一起。",
-      "imageUrl": "https://images.unsplash.com/photo-1646203549108-8202ac41e3fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjdXRlJTIwY2FydG9vbiUyMGNhdHN8ZW58MHx8fHwxNzY0NjMwMDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cute cartoon cats"
+      "id": "what-is-computer",
+      "description": "一个友好的、挥着手的卡通机器人角色，站在一个问号旁边。",
+      "imageUrl": "https://images.unsplash.com/photo-1762500825301-569628303acb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmcmllbmRseSUyMHJvYm90fGVufDB8fHx8MTc2NDYxODkyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "friendly robot"
     },
     {
-      "id": "restaurant",
-      "description": "一个繁忙又可爱的卡通餐厅厨房，有动物厨师在忙碌。",
-      "imageUrl": "https://images.unsplash.com/photo-1756745679447-73e51d7afe4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXJ0b29uJTIwa2l0Y2hlbiUyMGFuaW1hbHxlbnwwfHx8fDE3NjQ2MzAwMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cartoon kitchen animal"
+      "id": "binary-code",
+      "description": "可爱的卡通数字0和1手拉手跳舞。",
+      "imageUrl": "https://images.unsplash.com/photo-1740062446976-94a8837e0dde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkYW5jaW5nJTIwbnVtYmVyc3xlbnwwfHx8fDE3NjQ2MzA0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dancing numbers"
     },
     {
-      "id": "factory",
-      "description": "一个充满活力和色彩的卡通玩具工厂流水线。",
-      "imageUrl": "https://images.unsplash.com/photo-1633422279841-8cd2f399e546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjYXJ0b29uJTIwZmFjdG9yeXxlbnwwfHx8fDE3NjQ2MzAwMjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cartoon factory"
+      "id": "cpu-king",
+      "description": "一个坐在王座上的卡通国王CPU，戴着皇冠，正在发号施令。",
+      "imageUrl": "https://images.unsplash.com/photo-1578257015654-f3dc87a44971?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ0b29uJTIwa2luZ3xlbnwwfHx8fDE3NjQ2MzA0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon king"
     },
     {
-      "id": "cloud-data-center",
-      "description": "一个由云朵和彩虹组成的卡通数据中心，服务器像糖果一样。",
-      "imageUrl": "https://images.unsplash.com/photo-1739513261598-d1025613319b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ0b29uJTIwY2xvdWR8ZW58MHx8fHwxNzY0NjMwMDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cartoon cloud"
+      "id": "ram-desk",
+      "description": "一张卡通风格的凌乱但高效的办公桌，上面堆满了纸张和工具。",
+      "imageUrl": "https://images.unsplash.com/photo-1567987768246-df799f9c8afb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtZXNzeSUyMGRlc2t8ZW58MHx8fHwxNzY0NTgyMTE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "messy desk"
+    },
+    {
+      "id": "storage-library",
+      "description": "一个巨大的、充满魔法气息的卡通图书馆，书架一直延伸到天花板。",
+      "imageUrl": "https://images.unsplash.com/photo-1587876931567-564ce588bfbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYWdpYyUyMGxpYnJhcnl8ZW58MHx8fHwxNzY0NTgzMDQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "magic library"
+    },
+    {
+      "id": "gpu-artist",
+      "description": "一个戴着贝雷帽的卡通画家（GPU），正在一个巨大的调色板上快速地绘画。",
+      "imageUrl": "https://images.unsplash.com/photo-1630348637620-3d0584aa148f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjYXJ0b29uJTIwYXJ0aXN0fGVufDB8fHx8MTc2NDYzMDQxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon artist"
+    },
+    {
+      "id": "motherboard-city",
+      "description": "一个微缩的卡通城市，里面的道路是发光的电路，建筑物是各种芯片。",
+      "imageUrl": "https://images.unsplash.com/photo-1701764653833-ca46ee7c0b24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaXJjdWl0JTIwY2l0eXxlbnwwfHx8fDE3NjQ2MzA0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "circuit city"
+    },
+    {
+      "id": "input-post-office",
+      "description": "一个繁忙的卡通邮局，许多小动物正在投递信件（数据）。",
+      "imageUrl": "https://images.unsplash.com/photo-1763507989868-028e5c4efda1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ0b29uJTIwcG9zdHxlbnwwfHx8fDE3NjQ2MzA0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon post"
+    },
+    {
+      "id": "output-stage",
+      "description": "一个华丽的卡通舞台，聚光灯下展示着图片和文字。",
+      "imageUrl": "https://images.unsplash.com/photo-1626076049599-2b6ed9fce819?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYXJ0b29uJTIwc3RhZ2V8ZW58MHx8fHwxNzY0NjMwNDE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon stage"
+    },
+    {
+      "id": "os-conductor",
+      "description": "一个穿着燕尾服的卡通指挥家（操作系统），正在指挥一个由各种乐器组成的交响乐团。",
+      "imageUrl": "https://images.unsplash.com/photo-1737735511047-2b1b3faab590?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYXJ0b29uJTIwY29uZHVjdG9yfGVufDB8fHx8MTc2NDYzMDQxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon conductor"
+    },
+    {
+      "id": "app-fairground",
+      "description": "一个热闹的卡通游乐场，有各种各样的游乐设施（应用程序）。",
+      "imageUrl": "https://images.unsplash.com/photo-1644907780835-7f352925834d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjYXJ0b29uJTIwZmFpcmdyb3VuZHxlbnwwfHx8fDE3NjQ2MzA0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon fairground"
+    },
+    {
+      "id": "internet-galaxy",
+      "description": "一个由星星和行星（电脑）组成的卡通星系，它们之间有光线连接。",
+      "imageUrl": "https://images.unsplash.com/photo-1712511714099-4bf894979445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYXJ0b29uJTIwZ2FsYXh5fGVufDB8fHx8MTc2NDYzMDQxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon galaxy"
+    },
+    {
+      "id": "packets-mail",
+      "description": "许多带着小翅膀的卡通信封（数据包）在天空中飞行。",
+      "imageUrl": "https://images.unsplash.com/photo-1513270327160-516b92ed40e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmbHlpbmclMjBsZXR0ZXJzfGVufDB8fHx8MTc2NDYzMDQxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "flying letters"
+    },
+    {
+      "id": "cloud-castle",
+      "description": "一座漂浮在天空中的巨大卡通城堡，由云朵构成。",
+      "imageUrl": "https://images.unsplash.com/photo-1682879694893-815e1e3ddba9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjbG91ZCUyMGNhc3RsZXxlbnwwfHx8fDE3NjQ2MzA0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cloud castle"
+    },
+    {
+      "id": "virtualization-cats",
+      "description": "一群长得一模一样的可爱克隆猫在玩耍。",
+      "imageUrl": "https://images.unsplash.com/photo-1647146174584-861f2995ff06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjbG9uZSUyMGNhdHN8ZW58MHx8fHwxNzY0NjMwNDE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clone cats"
+    },
+    {
+      "id": "programming-chef",
+      "description": "一个戴着厨师帽的卡通人物，正在用各种食材（代码）创作一道美味的菜肴（程序）。",
+      "imageUrl": "https://images.unsplash.com/photo-1659354213732-8cdec0a6fb47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYXJ0b29uJTIwY2hlZnxlbnwwfHx8fDE3NjQ2MzA0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon chef"
+    },
+    {
+      "id": "ai-friend",
+      "description": "一个可爱的小机器人和一个小女孩并肩坐在一起，分享一本书。",
+      "imageUrl": "https://images.unsplash.com/photo-1589254066007-898d52d910d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyb2JvdCUyMGZyaWVuZHxlbnwwfHx8fDE3NjQ2MzA0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robot friend"
+    },
+    {
+      "id": "summary-party",
+      "description": "所有之前出现过的卡通角色（CPU国王、GPU画家等）在一起开派对，庆祝旅程的结束。",
+      "imageUrl": "https://images.unsplash.com/photo-1517456944721-229d38679dfa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYXJ0b29uJTIwcGFydHl8ZW58MHx8fHwxNzY0NjMwNDE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon party"
     }
   ]
 }

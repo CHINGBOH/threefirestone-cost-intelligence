@@ -4,7 +4,7 @@ export function CoreRevelationSection() {
   const binaryString = Array(100).fill('01').join('');
 
   return (
-    <section id="revelation" className="py-20 sm:py-32 overflow-hidden">
+    <section id="core-revelation" className="py-20 sm:py-32 overflow-hidden bg-background">
       <div className="container mx-auto">
         <div className="mx-auto max-w-2xl text-center">
           <Binary className="mx-auto h-12 w-12 text-primary animate-bounce" />

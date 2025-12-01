@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from 'react';
@@ -16,7 +17,7 @@ import {
 } from '@/components/ui/form';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Loader2, Sparkles } from 'lucide-react';
+import { Loader2, Sparkles, Wand2 } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const formSchema = z.object({
@@ -56,13 +57,13 @@ export function TranslationToolSection() {
   }
 
   return (
-    <section className="bg-background py-20 sm:py-32">
+    <section id="translation-tool" className="bg-background py-20 sm:py-32">
       <div className="container mx-auto px-4">
-        <Card className="max-w-3xl mx-auto bg-card/80 backdrop-blur">
+        <Card className="max-w-3xl mx-auto bg-card/80 backdrop-blur shadow-2xl animate-fade-in-up">
           <CardHeader>
             <CardTitle className="flex items-center gap-2 font-headline">
-              <Sparkles className="h-6 w-6 text-primary animate-pulse" />
-              神奇比喻翻译机
+              <Wand2 className="h-6 w-6 text-primary animate-pulse" />
+              第20站：神奇比喻翻译机
             </CardTitle>
             <CardDescription>
               有听不懂的电脑“咒语”吗？把它输进来，AI魔法师会把它变成一个你好懂的可爱比喻！

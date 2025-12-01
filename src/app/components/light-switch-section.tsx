@@ -14,7 +14,7 @@ const Transistor = ({ on, isAnimated }: { on: boolean; isAnimated?: boolean }) =
 
 export function LightSwitchSection() {
   return (
-    <section className="bg-card py-20 sm:py-32">
+    <section id="light-switch" className="bg-card py-20 sm:py-32">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-primary font-headline">最小的魔法积木</h2>
