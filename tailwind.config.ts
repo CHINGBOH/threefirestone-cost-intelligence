@@ -17,8 +17,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['"Noto Sans SC"', 'sans-serif'],
-        headline: ['"ZCOOL XiaoWei"', 'serif'],
+        body: ['"Ma Shan Zheng"', 'serif'],
+        headline: ['"Ma Shan Zheng"', 'serif'],
         code: ['monospace'],
       },
       colors: {
