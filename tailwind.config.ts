@@ -17,8 +17,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['"Ma Shan Zheng"', 'serif'],
-        headline: ['"Ma Shan Zheng"', 'serif'],
+        body: ['"Noto Sans SC"', 'sans-serif'],
+        headline: ['"Noto Sans SC"', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
