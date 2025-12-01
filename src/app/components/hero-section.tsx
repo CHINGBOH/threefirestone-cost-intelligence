@@ -25,7 +25,7 @@ export function HeroSection() {
             电脑的奥秘：从底层原理到大型语言模型
           </h1>
           <p className="mt-6 text-lg leading-8 text-foreground/80 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-            系统梳理支撑现代计算机科学及其前沿应用——大型语言模型（LLM）的知识体系，深入探索从理论到工程的内在联系。
+            一份系统梳理从计算机底层到大型语言模型（LLM）的全面知识体系报告，深入探索理论与工程的内在联系。
           </p>
           <div className="mt-10 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             <Button size="lg" asChild className="animate-pulse">

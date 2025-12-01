@@ -11,6 +11,8 @@ import { Button } from '@/components/ui/button';
 
 const sections = [
   { id: 'chapter-1', title: '第一章：计算基础与抽象层级' },
+  { id: 'chapter-2', title: '第二章：数学理论基础' },
+  { id: 'chapter-3', title: '第三章：统计与推断基础' },
   // Future chapters will be added here
 ]
 

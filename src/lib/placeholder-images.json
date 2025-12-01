@@ -23,6 +23,30 @@
       "description": "两个玻璃罐子，一个装满了整齐排列的彩色糖果，另一个装满了混乱混合的糖果。",
       "imageUrl": "https://images.unsplash.com/photo-1599385552355-188406a4571e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYW5keSUyMGphcnxlbnwwfHx8fDE3NjQ3MzY2NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "candy jar"
+    },
+    {
+      "id": "linear-algebra",
+      "description": "一束光通过一个棱镜，分解成彩虹的七种颜色，展示了向量分解的概念。",
+      "imageUrl": "https://images.unsplash.com/photo-1593959828859-c1ca48a0c25a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwYWludGVkJTIwYWJzdHJhY3QlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzY4MzM0NTIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "painted abstract landscape"
+    },
+    {
+      "id": "pca",
+      "description": "皮影戏，复杂的人物通过二维的影子来呈现。",
+      "imageUrl": "https://images.unsplash.com/photo-1629822432821-3b7c7b415c9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhc2lhbiUyMHNoYWRvdyUyMHB1cHBldHxlbnwwfHx8fDE3NjgzMzUwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "asian shadow puppet"
+    },
+    {
+      "id": "lora",
+      "description": "一幅古典油画（蒙娜丽莎），有人正在给它加上一副可爱的卡通太阳镜。",
+      "imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYWludGluZyUyMHZhbnpnJTIwZ29naHxlbnwwfHx8fDE3NjgzMzU4NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "painting van gogh"
+    },
+    {
+      "id": "statistics",
+      "description": "一位侦探（福尔摩斯风格）拿着放大镜，仔细研究地面上的脚印，进行推断。",
+      "imageUrl": "https://images.unsplash.com/photo-1616474233408-545a339a8953?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXJ0b29uJTIwZGV0ZWN0aXZlfGVufDB8fHx8fDE3NjgzMzY0NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon detective"
     }
   ]
 }
