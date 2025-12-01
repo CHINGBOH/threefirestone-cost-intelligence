@@ -2,33 +2,33 @@
   "placeholderImages": [
     {
       "id": "hero",
-      "description": "夜晚充满未来感的城市，发光的数据流穿梭其间。",
-      "imageUrl": "https://images.unsplash.com/photo-1535391879778-3bae11d29a24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmdXR1cmlzdGljJTIwY2l0eXxlbnwwfHx8fDE3NjQ1NjIwNzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "未来 城市"
+      "description": "一个充满未来感的可爱卡通城市夜景，发光的数据流像星星一样闪烁。",
+      "imageUrl": "https://images.unsplash.com/photo-1750088292550-5893193a7def?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYXJ0b29uJTIwZnV0dXJlJTIwY2l0eXxlbnwwfHx8fDE3NjQ2MzAwMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon future city"
     },
     {
       "id": "cats",
-      "description": "一只黑猫和一只白猫坐在一起。",
-      "imageUrl": "https://images.unsplash.com/photo-1640652664320-39e7309081b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0d28lMjBjYXRzfGVufDB8fHx8MTc2NDYxOTA4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "两只猫"
+      "description": "一只可爱的卡通黑猫和一只卡通白猫坐在一起。",
+      "imageUrl": "https://images.unsplash.com/photo-1646203549108-8202ac41e3fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjdXRlJTIwY2FydG9vbiUyMGNhdHN8ZW58MHx8fHwxNzY0NjMwMDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cute cartoon cats"
     },
     {
       "id": "restaurant",
-      "description": "一个繁忙的专业餐厅后厨。",
-      "imageUrl": "https://images.unsplash.com/photo-1588416820614-f8d6ac6cea56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyZXN0YXVyYW50JTIwa2l0Y2hlbnxlbnwwfHx8fDE3NjQ2MTM2ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "餐厅 厨房"
+      "description": "一个繁忙又可爱的卡通餐厅厨房，有动物厨师在忙碌。",
+      "imageUrl": "https://images.unsplash.com/photo-1756745679447-73e51d7afe4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXJ0b29uJTIwa2l0Y2hlbiUyMGFuaW1hbHxlbnwwfHx8fDE3NjQ2MzAwMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon kitchen animal"
     },
     {
       "id": "factory",
-      "description": "一条有机械臂的现代化工厂流水线。",
-      "imageUrl": "https://images.unsplash.com/photo-1716191299945-4c5b89703971?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYWN0b3J5JTIwYXNzZW1ibHl8ZW58MHx8fHwxNzY0NTA2NzcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "工厂 流水线"
+      "description": "一个充满活力和色彩的卡通玩具工厂流水线。",
+      "imageUrl": "https://images.unsplash.com/photo-1633422279841-8cd2f399e546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjYXJ0b29uJTIwZmFjdG9yeXxlbnwwfHx8fDE3NjQ2MzAwMjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon factory"
     },
     {
       "id": "cloud-data-center",
-      "description": "一个有成排服务器的巨大数据中心。",
-      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkYXRhJTIwY2VudGVyfGVufDB8fHx8MTc2NDU1NDQwOXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "数据中心"
+      "description": "一个由云朵和彩虹组成的卡通数据中心，服务器像糖果一样。",
+      "imageUrl": "https://images.unsplash.com/photo-1739513261598-d1025613319b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ0b29uJTIwY2xvdWR8ZW58MHx8fHwxNzY0NjMwMDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon cloud"
     }
   ]
 }

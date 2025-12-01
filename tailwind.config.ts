@@ -17,8 +17,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['Inter', 'sans-serif'],
-        headline: ['Poppins', 'sans-serif'],
+        body: ['"M PLUS Rounded 1c"', 'sans-serif'],
+        headline: ['"ZCOOL XiaoWei"', 'serif'],
         code: ['monospace'],
       },
       colors: {

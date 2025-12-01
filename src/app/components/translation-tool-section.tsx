@@ -48,7 +48,7 @@ export function TranslationToolSection() {
       toast({
         variant: "destructive",
         title: "哎呀！出错了。",
-        description: "翻译工具出了点问题，请稍后再试。",
+        description: "翻译机好像出了一点小问题，请稍后再试吧！",
       });
     } finally {
       setIsLoading(false);
@@ -61,11 +61,11 @@ export function TranslationToolSection() {
         <Card className="max-w-3xl mx-auto bg-card/80 backdrop-blur">
           <CardHeader>
             <CardTitle className="flex items-center gap-2 font-headline">
-              <Sparkles className="h-6 w-6 text-primary" />
-              比喻翻译机
+              <Sparkles className="h-6 w-6 text-primary animate-pulse" />
+              神奇比喻翻译机
             </CardTitle>
             <CardDescription>
-              不懂电脑术语？描述一个电脑功能，我们的人工智能会把它翻译成一个简单易懂的生活比喻。
+              有听不懂的电脑“咒语”吗？把它输进来，AI魔法师会把它变成一个你好懂的可爱比喻！
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -76,10 +76,10 @@ export function TranslationToolSection() {
                   name="computerFunctionality"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>电脑功能</FormLabel>
+                      <FormLabel>电脑“咒语”</FormLabel>
                       <FormControl>
                         <Textarea
-                          placeholder="例如：电脑的操作系统管理硬件和软件资源..."
+                          placeholder="比如：电脑的操作系统是管理硬件和软件的大管家..."
                           {...field}
                           rows={4}
                         />
@@ -92,7 +92,7 @@ export function TranslationToolSection() {
                   {isLoading ? (
                     <>
                       <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                      翻译中...
+                      魔法翻译中...
                     </>
                   ) : (
                     <>
@@ -116,7 +116,7 @@ export function TranslationToolSection() {
 
             {metaphor && !isLoading && (
               <div className="mt-8 pt-8 border-t animate-fade-in-up">
-                <h3 className="text-lg font-semibold font-headline">你的比喻：</h3>
+                <h3 className="text-lg font-semibold font-headline">你的专属比喻：</h3>
                 <blockquote className="mt-4 border-l-2 pl-6 italic text-foreground/80">
                   {metaphor}
                 </blockquote>

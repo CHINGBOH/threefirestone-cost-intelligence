@@ -21,15 +21,15 @@ export function HeroSection() {
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
         <div className="container max-w-3xl">
           <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl font-headline animate-fade-in-down">
-            关于电脑的终极真相
+            电脑世界的终极秘密！
           </h1>
           <p className="mt-6 text-lg leading-8 text-foreground/80 animate-fade-in-up">
-            你觉得电脑很聪明吗？人工智能模型有智慧吗？今天，我们来揭开它神秘的面纱！
+            你有没有想过，聪明的电脑和AI到底是怎么工作的？今天，我们就一起揭开它的神秘面纱！
           </p>
           <div className="mt-10 animate-bounce">
             <Button size="lg" asChild>
               <a href="#revelation">
-                发现秘密 <ArrowDown className="ml-2 h-5 w-5" />
+                开始探险 <ArrowDown className="ml-2 h-5 w-5" />
               </a>
             </Button>
           </div>

@@ -11,40 +11,40 @@ export function CpuMetaphorSection() {
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-3xl text-center">
           <Cog className="mx-auto h-12 w-12 text-primary animate-spin-slow" />
-          <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">到底谁在控制？</h2>
+          <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">谁是真正的大管家？</h2>
           <p className="mt-6 text-lg leading-8 text-foreground/80">
-            当你打开智能灯时，你以为是CPU直接按下了开关吗？再想想。CPU只下达命令，真正干活的是专门的设备控制器。
+            你打开一个游戏，是不是以为是CPU老大亲自跑去工作的？才不是呢！CPU就像个国王，只管发号施令，真正干活的是一群勤劳的小精灵！
           </p>
         </div>
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold font-headline text-center lg:text-left">工厂的比喻</h3>
-            <Card className="transition-all hover:shadow-lg hover:-translate-y-1">
+            <h3 className="text-2xl font-bold font-headline text-center lg:text-left">玩具工厂大冒险</h3>
+            <Card className="transition-all hover:shadow-lg hover:-translate-y-1 animate-fade-in-up">
               <CardContent className="p-4 flex items-center gap-4">
                 <UserCog className="h-8 w-8 text-primary flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold">CPU (总经理)</h4>
-                  <p className="text-sm text-muted-foreground">下达高级命令：“开始组装。”</p>
+                  <h4 className="font-semibold">CPU (国王)</h4>
+                  <p className="text-sm text-muted-foreground">下达命令：“快！组装小汽车！”</p>
                 </div>
               </CardContent>
             </Card>
-            <ArrowDown className="h-6 w-6 text-muted-foreground mx-auto" />
-            <Card className="transition-all hover:shadow-lg hover:-translate-y-1">
+            <ArrowDown className="h-6 w-6 text-muted-foreground mx-auto animate-bounce" />
+            <Card className="transition-all hover:shadow-lg hover:-translate-y-1 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <CardContent className="p-4 flex items-center gap-4">
                 <Clipboard className="h-8 w-8 text-primary flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold">I/O桥 (车间主管)</h4>
-                  <p className="text-sm text-muted-foreground">把命令传达给正确的工人。</p>
+                  <h4 className="font-semibold">I/O桥 (精灵主管)</h4>
+                  <p className="text-sm text-muted-foreground">把国王的命令传给正确的精灵小队。</p>
                 </div>
               </CardContent>
             </Card>
-            <ArrowDown className="h-6 w-6 text-muted-foreground mx-auto" />
-            <Card className="transition-all hover:shadow-lg hover:-translate-y-1">
+            <ArrowDown className="h-6 w-6 text-muted-foreground mx-auto animate-bounce" />
+            <Card className="transition-all hover:shadow-lg hover:-translate-y-1 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
               <CardContent className="p-4 flex items-center gap-4">
                 <HardHat className="h-8 w-8 text-primary flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold">设备控制器 (工人)</h4>
-                  <p className="text-sm text-muted-foreground">接收指令并操作机器。</p>
+                  <h4 className="font-semibold">设备控制器 (精灵工人)</h4>
+                  <p className="text-sm text-muted-foreground">收到命令，马上开始用魔法工具干活！</p>
                 </div>
               </CardContent>
             </Card>
@@ -60,7 +60,7 @@ export function CpuMetaphorSection() {
                 data-ai-hint={factoryImage.imageHint}
               />
             )}
-            <p className="text-center mt-8 text-muted-foreground">这种精确的“传达”和“执行”依赖于地址总线和逻辑门的精确协作。每一个动作都完美同步。</p>
+            <p className="text-center mt-8 text-muted-foreground">小精灵们的合作天衣无缝，才能让玩具工厂运转起来！</p>
           </div>
         </div>
       </div>
