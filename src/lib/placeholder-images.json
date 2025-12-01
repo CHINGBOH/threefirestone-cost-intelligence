@@ -2,33 +2,33 @@
   "placeholderImages": [
     {
       "id": "hero",
-      "description": "A futuristic cityscape at night, with glowing data streams.",
+      "description": "夜晚充满未来感的城市，发光的数据流穿梭其间。",
       "imageUrl": "https://images.unsplash.com/photo-1535391879778-3bae11d29a24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmdXR1cmlzdGljJTIwY2l0eXxlbnwwfHx8fDE3NjQ1NjIwNzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "futuristic city"
+      "imageHint": "未来 城市"
     },
     {
       "id": "cats",
-      "description": "A black cat and a white cat sitting together.",
+      "description": "一只黑猫和一只白猫坐在一起。",
       "imageUrl": "https://images.unsplash.com/photo-1640652664320-39e7309081b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0d28lMjBjYXRzfGVufDB8fHx8MTc2NDYxOTA4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "two cats"
+      "imageHint": "两只猫"
     },
     {
       "id": "restaurant",
-      "description": "A busy professional restaurant kitchen.",
+      "description": "一个繁忙的专业餐厅后厨。",
       "imageUrl": "https://images.unsplash.com/photo-1588416820614-f8d6ac6cea56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyZXN0YXVyYW50JTIwa2l0Y2hlbnxlbnwwfHx8fDE3NjQ2MTM2ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "restaurant kitchen"
+      "imageHint": "餐厅 厨房"
     },
     {
       "id": "factory",
-      "description": "A modern factory assembly line with robotic arms.",
+      "description": "一条有机械臂的现代化工厂流水线。",
       "imageUrl": "https://images.unsplash.com/photo-1716191299945-4c5b89703971?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYWN0b3J5JTIwYXNzZW1ibHl8ZW58MHx8fHwxNzY0NTA2NzcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "factory assembly"
+      "imageHint": "工厂 流水线"
     },
     {
       "id": "cloud-data-center",
-      "description": "A vast data center with rows of servers.",
+      "description": "一个有成排服务器的巨大数据中心。",
       "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkYXRhJTIwY2VudGVyfGVufDB8fHx8MTc2NDU1NDQwOXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "data center"
+      "imageHint": "数据中心"
     }
   ]
 }

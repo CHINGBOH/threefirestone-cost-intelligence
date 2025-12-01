@@ -20,16 +20,16 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent" />
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
         <div className="container max-w-3xl">
-          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl font-headline">
-            The Ultimate Truth About Computers
+          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl font-headline animate-fade-in-down">
+            关于电脑的终极真相
           </h1>
-          <p className="mt-6 text-lg leading-8 text-foreground/80">
-            Think computers are smart? That AI models are intelligent? Today, we're going to shatter your perception.
+          <p className="mt-6 text-lg leading-8 text-foreground/80 animate-fade-in-up">
+            你觉得电脑很聪明吗？人工智能模型有智慧吗？今天，我们来揭开它神秘的面纱！
           </p>
-          <div className="mt-10">
+          <div className="mt-10 animate-bounce">
             <Button size="lg" asChild>
               <a href="#revelation">
-                Discover the Secret <ArrowDown className="ml-2 h-5 w-5" />
+                发现秘密 <ArrowDown className="ml-2 h-5 w-5" />
               </a>
             </Button>
           </div>

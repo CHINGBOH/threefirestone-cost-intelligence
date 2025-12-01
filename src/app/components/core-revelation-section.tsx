@@ -7,10 +7,10 @@ export function CoreRevelationSection() {
     <section id="revelation" className="py-20 sm:py-32 overflow-hidden">
       <div className="container mx-auto">
         <div className="mx-auto max-w-2xl text-center">
-          <Binary className="mx-auto h-12 w-12 text-primary" />
-          <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">It's Not "Intelligence". It's a Switchboard.</h2>
+          <Binary className="mx-auto h-12 w-12 text-primary animate-pulse" />
+          <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">不是“智能”，而是开关</h2>
           <p className="mt-6 text-lg leading-8 text-foreground/80">
-            Here's a secret: your computer has no "intelligence." It's just a giant network of switches, capable of being either ON or OFF.
+            悄悄告诉你：你的电脑并没有“智慧”。它只是一个由无数开关组成的巨大网络，每个开关只有两种状态：开或关。
           </p>
         </div>
         <div className="mt-16 relative flex flex-col gap-4">

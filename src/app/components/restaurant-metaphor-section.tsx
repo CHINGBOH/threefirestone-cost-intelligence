@@ -11,9 +11,9 @@ export function RestaurantMetaphorSection() {
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-2xl lg:text-center">
           <Layers className="mx-auto h-12 w-12 text-primary" />
-          <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">The Magic of Abstraction</h2>
+          <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">抽象的魔力</h2>
           <p className="mt-6 text-lg leading-8 text-foreground/80">
-            From your idea to a completed task, what happens inside the computer? The answer: layers of abstraction and translation. Your thoughts travel a long road from human language to machine language.
+            从你的想法到一个任务完成，电脑内部发生了什么？答案是：一层层的抽象和翻译。你的想法从人类语言到机器语言，走过了一条漫长的道路。
           </p>
         </div>
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
@@ -24,55 +24,55 @@ export function RestaurantMetaphorSection() {
                 alt={restaurantImage.description}
                 width={600}
                 height={400}
-                className="rounded-lg shadow-lg w-full aspect-[3/2] object-cover"
+                className="rounded-lg shadow-lg w-full aspect-[3/2] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={restaurantImage.imageHint}
               />
             )}
           </div>
           <div className="space-y-4 order-1 lg:order-2">
-            <h3 className="text-2xl font-bold font-headline text-center lg:text-left">It's Like a Restaurant...</h3>
-            <Card>
+            <h3 className="text-2xl font-bold font-headline text-center lg:text-left">就像在餐厅里...</h3>
+            <Card className="transition-all hover:shadow-lg hover:-translate-y-1">
               <CardContent className="p-4 flex items-center gap-4">
                 <User className="h-8 w-8 text-primary flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold">You (The User)</h4>
-                  <p className="text-sm text-muted-foreground">You order in natural language.</p>
+                  <h4 className="font-semibold">你 (顾客)</h4>
+                  <p className="text-sm text-muted-foreground">你用自然的语言点餐。</p>
                 </div>
               </CardContent>
             </Card>
             <ArrowDown className="h-6 w-6 text-muted-foreground mx-auto" />
-            <Card>
+            <Card className="transition-all hover:shadow-lg hover:-translate-y-1">
               <CardContent className="p-4 flex items-center gap-4">
                 <ConciergeBell className="h-8 w-8 text-primary flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold">Operating System (The Waiter)</h4>
-                  <p className="text-sm text-muted-foreground">Translates your order for the chef.</p>
+                  <h4 className="font-semibold">操作系统 (服务员)</h4>
+                  <p className="text-sm text-muted-foreground">把你的点单翻译给厨师听。</p>
                 </div>
               </CardContent>
             </Card>
             <ArrowDown className="h-6 w-6 text-muted-foreground mx-auto" />
-            <Card>
+            <Card className="transition-all hover:shadow-lg hover:-translate-y-1">
               <CardContent className="p-4 flex items-center gap-4">
                 <ChefHat className="h-8 w-8 text-primary flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold">CPU (The Chef)</h4>
-                  <p className="text-sm text-muted-foreground">Executes instructions to prepare the meal.</p>
+                  <h4 className="font-semibold">中央处理器(CPU) (厨师)</h4>
+                  <p className="text-sm text-muted-foreground">执行指令，准备饭菜。</p>
                 </div>
               </CardContent>
             </Card>
              <ArrowDown className="h-6 w-6 text-muted-foreground mx-auto" />
-             <Card>
+             <Card className="transition-all hover:shadow-lg hover:-translate-y-1">
               <CardContent className="p-4 flex items-center gap-4">
                 <Bot className="h-8 w-8 text-primary flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold">Hardware (The Kitchen)</h4>
-                  <p className="text-sm text-muted-foreground">The tools and drivers that do the actual work.</p>
+                  <h4 className="font-semibold">硬件 (厨房)</h4>
+                  <p className="text-sm text-muted-foreground">真正干活的工具和设备。</p>
                 </div>
               </CardContent>
             </Card>
           </div>
         </div>
-        <p className="text-center mt-16 text-lg text-foreground/80 max-w-3xl mx-auto">The "stiffness" of computer language is precisely what allows your "vague fantasies" to be executed by the most precise network of switches. It's an engineering miracle!</p>
+        <p className="text-center mt-16 text-lg text-foreground/80 max-w-3xl mx-auto">正是计算机语言的“死板”，才让你“天马行空”的想法能被最精确的开关网络执行。这是一个工程奇迹！</p>
       </div>
     </section>
   );

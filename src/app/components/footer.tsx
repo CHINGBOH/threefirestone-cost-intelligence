@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container mx-auto py-8 text-center text-sm text-muted-foreground">
         <div className="flex items-center justify-center gap-2">
             <Cpu className="h-4 w-4" />
-            <p>&copy; {new Date().getFullYear()} Tech Deep Dive. All Rights Reserved.</p>
+            <p>&copy; {new Date().getFullYear()} 电脑的奥秘。版权所有。</p>
         </div>
       </div>
     </footer>

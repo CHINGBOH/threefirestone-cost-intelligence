@@ -35,9 +35,8 @@ const prompt = ai.definePrompt({
   name: 'abstractionTranslationPrompt',
   input: {schema: AbstractionTranslationInputSchema},
   output: {schema: AbstractionTranslationOutputSchema},
-  prompt: `You are an expert at explaining computer functionality using real-world metaphors.
-
-  Please translate the following computer functionality into a metaphor that is easy to understand:
+  prompt: `你是一位擅长用生动有趣的比喻来解释复杂计算机概念的专家。
+  请将以下计算机功能翻译成一个小学生也能轻松理解的比喻：
 
   {{computerFunctionality}}`,
 });

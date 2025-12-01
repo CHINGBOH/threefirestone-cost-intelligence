@@ -20,8 +20,8 @@ import { Loader2, Sparkles } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const formSchema = z.object({
-  computerFunctionality: z.string().min(10, {
-    message: "Please describe the functionality in at least 10 characters.",
+  computerFunctionality: z.string().min(5, {
+    message: "请至少输入5个字来描述哦。",
   }),
 });
 
@@ -41,14 +41,14 @@ export function TranslationToolSection() {
     setIsLoading(true);
     setMetaphor("");
     try {
-      const result = await abstractionTranslationTool(values);
+      const result = await abstractionTranslationTool({ computerFunctionality: `请用一个适合小学生的、简单有趣的比喻来解释这个电脑功能：${values.computerFunctionality}` });
       setMetaphor(result.metaphor);
     } catch (error) {
-      console.error("Error translating abstraction:", error);
+      console.error("翻译出错:", error);
       toast({
         variant: "destructive",
-        title: "Oh no! Something went wrong.",
-        description: "There was a problem with the translation tool. Please try again later.",
+        title: "哎呀！出错了。",
+        description: "翻译工具出了点问题，请稍后再试。",
       });
     } finally {
       setIsLoading(false);
@@ -56,16 +56,16 @@ export function TranslationToolSection() {
   }
 
   return (
-    <section className="bg-card py-20 sm:py-32">
+    <section className="bg-background py-20 sm:py-32">
       <div className="container mx-auto px-4">
-        <Card className="max-w-3xl mx-auto bg-background/50">
+        <Card className="max-w-3xl mx-auto bg-card/80 backdrop-blur">
           <CardHeader>
             <CardTitle className="flex items-center gap-2 font-headline">
               <Sparkles className="h-6 w-6 text-primary" />
-              Abstraction Translator
+              比喻翻译机
             </CardTitle>
             <CardDescription>
-              Confused by computer jargon? Describe a piece of computer functionality, and our AI will translate it into an easy-to-understand, real-world metaphor.
+              不懂电脑术语？描述一个电脑功能，我们的人工智能会把它翻译成一个简单易懂的生活比喻。
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -76,10 +76,10 @@ export function TranslationToolSection() {
                   name="computerFunctionality"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Computer Functionality</FormLabel>
+                      <FormLabel>电脑功能</FormLabel>
                       <FormControl>
                         <Textarea
-                          placeholder="e.g., 'A computer's operating system manages hardware and software resources...'"
+                          placeholder="例如：电脑的操作系统管理硬件和软件资源..."
                           {...field}
                           rows={4}
                         />
@@ -88,16 +88,16 @@ export function TranslationToolSection() {
                     </FormItem>
                   )}
                 />
-                <Button type="submit" disabled={isLoading}>
+                <Button type="submit" disabled={isLoading} className="transition-all hover:scale-105">
                   {isLoading ? (
                     <>
                       <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                      Translating...
+                      翻译中...
                     </>
                   ) : (
                     <>
                       <Sparkles className="mr-2 h-4 w-4" />
-                      Generate Metaphor
+                      生成比喻
                     </>
                   )}
                 </Button>
@@ -107,16 +107,16 @@ export function TranslationToolSection() {
             {isLoading && (
               <div className="mt-8 pt-8 border-t">
                   <div className="space-y-2">
-                    <div className="animate-pulse bg-muted/50 rounded-md h-4 w-1/4" />
-                    <div className="animate-pulse bg-muted/50 rounded-md h-4 w-full" />
-                    <div className="animate-pulse bg-muted/50 rounded-md h-4 w-3/4" />
+                    <div className="animate-pulse bg-muted rounded-md h-4 w-1/4" />
+                    <div className="animate-pulse bg-muted rounded-md h-4 w-full" />
+                    <div className="animate-pulse bg-muted rounded-md h-4 w-3/4" />
                   </div>
               </div>
             )}
 
             {metaphor && !isLoading && (
-              <div className="mt-8 pt-8 border-t">
-                <h3 className="text-lg font-semibold font-headline">Your Metaphor:</h3>
+              <div className="mt-8 pt-8 border-t animate-fade-in-up">
+                <h3 className="text-lg font-semibold font-headline">你的比喻：</h3>
                 <blockquote className="mt-4 border-l-2 pl-6 italic text-foreground/80">
                   {metaphor}
                 </blockquote>
