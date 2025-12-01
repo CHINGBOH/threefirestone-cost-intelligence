@@ -3,50 +3,68 @@
     {
       "id": "hero",
       "description": "一个抽象的、发光的神经网络结构图，背景是深蓝色，充满科技感。",
-      "imageUrl": "https://images.unsplash.com/photo-1744130268172-b1a96a4adbad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzY0NjA3NjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1744130268188-3b5a7ceb436b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzY0NjA3NjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "neural network abstract"
     },
     {
       "id": "automata",
       "description": "一台老式的、卡通风格的自动售货机，旁边有一只友好的机器人正在操作它。",
-      "imageUrl": "https://images.unsplash.com/photo-1617653901224-124efa8df4d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ0b29uJTIwcm9ib3QlMjB2ZW5kaW5nJTIwbWFjaGluZXxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1604481675584-77bfcfe1150b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYXJ0b29uJTIwcm9ib3QlMjB2ZW5kaW5nJTIwbWFjaGluZXxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cartoon robot vending machine"
     },
     {
       "id": "complexity",
       "description": "一个卡通人物站在一个复杂的迷宫前，表情困惑，旁边有一条简单的直线路径作为对比。",
-      "imageUrl": "https://images.unsplash.com/photo-1744292259323-b2d210b605b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYXJ0b29uJTIwbWF6ZXxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1583077300486-8e4e2c773422?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYXJ0b29uJTIwbWF6ZXxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cartoon maze"
     },
     {
       "id": "entropy",
       "description": "两个玻璃罐子，一个装满了整齐排列的彩色糖果，另一个装满了混乱混合的糖果。",
-      "imageUrl": "https://images.unsplash.com/photo-1705591395633-dc31a7b3c8ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYW5keSUyMGphcnxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1713756629990-2657a4209bc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYW5keSUyMGphcnxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "candy jar"
     },
     {
       "id": "linear-algebra",
       "description": "一束光通过一个棱镜，分解成彩虹的七种颜色，展示了向量分解的概念。",
-      "imageUrl": "https://images.unsplash.com/photo-1700405936782-220a5e798918?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwYWludGVkJTIwYWJzdHJhY3QlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzY0NjMyOTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580508233726-605986aeca82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwYWludGVkJTIwYWJzdHJhY3QlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzY0NjMyOTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "painted abstract landscape"
     },
     {
       "id": "pca",
       "description": "皮影戏，复杂的人物通过二维的影子来呈现。",
-      "imageUrl": "https://images.unsplash.com/photo-1682834389330-ee7c055722de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhc2lhbiUyMHNoYWRvdyUyMHB1cHBldHxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1679106082983-92c3d797c626?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhc2lhbiUyMHNoYWRvdyUyMHB1cHBldHxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "asian shadow puppet"
     },
     {
       "id": "lora",
       "description": "一幅古典油画（蒙娜丽莎），有人正在给它加上一副可爱的卡通太阳镜。",
-      "imageUrl": "https://images.unsplash.com/photo-1689259103834-49d089d4044a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwYWludGluZyUyMHZhbiUyMGdvZ2h8ZW58MHx8fHwxNzY0NjMyOTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1688902105223-464dfb5653bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwYWludGluZyUyMHZhbiUyMGdvZ2h8ZW58MHx8fHwxNzY0NjMyOTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "painting van gogh"
     },
     {
       "id": "statistics",
       "description": "一位侦探（福尔摩斯风格）拿着放大镜，仔细研究地面上的脚印，进行推断。",
-      "imageUrl": "https://images.unsplash.com/photo-1636056471685-1cfdfa9d2e4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjYXJ0b29uJTIwZGV0ZWN0aXZlfGVufDB8fHx8MTc2NDU1NjU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1763315371311-f59468cc2ddc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYXJ0b29uJTIwZGV0ZWN0aXZlfGVufDB8fHx8MTc2NDU1NjU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cartoon detective"
+    },
+    {
+      "id": "learning-paradigms",
+      "description": "一位老师在黑板前教两个机器人学生，一个在认真听讲，另一个在自己探索。",
+      "imageUrl": "https://images.unsplash.com/photo-1627641439698-970b17262389?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyb2JvdCUyMHN0dWRlbnRzJTIwdGVhY2hlcnxlbnwwfHx8fDE3NjQ2MzMzODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robot students teacher"
+    },
+    {
+      "id": "neural-network",
+      "description": "一个发光的大脑神经元网络，充满了复杂的连接和节点。",
+      "imageUrl": "https://images.unsplash.com/photo-1719650592946-55163c4994cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxnbG93aW5nJTIwYnJhaW4lMjBuZXVyb25zfGVufDB8fHx8MTc2NDYzMzM4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "glowing brain neurons"
+    },
+    {
+      "id": "backpropagation",
+      "description": "一排多米诺骨牌正在反向倒下，象征着从结果反推原因的过程。",
+      "imageUrl": "https://images.unsplash.com/photo-1591267998489-6acf804bd745?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkb21pbm9lcyUyMGZhbGxpbmd8ZW58MHx8fHwxNzY0NjMzMzgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dominoes falling"
     }
   ]
 }

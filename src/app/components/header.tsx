@@ -13,6 +13,7 @@ const sections = [
   { id: 'chapter-1', title: '第一章：计算基础与抽象层级' },
   { id: 'chapter-2', title: '第二章：数学理论基础' },
   { id: 'chapter-3', title: '第三章：统计与推断基础' },
+  { id: 'chapter-4', title: '第四章：机器学习与深度学习基础' },
   // Future chapters will be added here
 ]
 
