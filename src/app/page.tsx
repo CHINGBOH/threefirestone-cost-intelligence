@@ -6,6 +6,7 @@ import { Chapter1Section } from '@/app/components/p1-foundations';
 import { Chapter2Section } from '@/app/components/p2-math-foundations';
 import { Chapter3Section } from '@/app/components/p3-statistics';
 import { Chapter4Section } from '@/app/components/p4-ml-dl';
+import { Chapter5Section } from '@/app/components/p5-software-engineering';
 import { Footer } from '@/app/components/footer';
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <Chapter2Section />
         <Chapter3Section />
         <Chapter4Section />
+        <Chapter5Section />
         {/* TODO: Add other chapters later */}
       </main>
       <Footer />
