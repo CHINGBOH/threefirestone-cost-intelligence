@@ -6,6 +6,7 @@ export default {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app_components/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     container: {
@@ -17,7 +18,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['"M PLUS Rounded 1c"', 'sans-serif'],
+        body: ['"Noto Sans SC"', 'sans-serif'],
         headline: ['"ZCOOL XiaoWei"', 'serif'],
         code: ['monospace'],
       },
@@ -95,31 +96,21 @@ export default {
             height: '0',
           },
         },
-        'marquee': {
-          '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-50%)' },
-        },
-        'marquee-reverse': {
-          '0%': { transform: 'translateX(-50%)' },
-          '100%': { transform: 'translateX(0%)' },
+        'fade-in-up': {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
         },
         'fade-in-down': {
           '0%': { opacity: '0', transform: 'translateY(-20px)' },
-          '100%': { opacity: '1', transform: 'translateY(0)' },
-        },
-        'fade-in-up': {
-          '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
-        'marquee': 'marquee 60s linear infinite',
-        'marquee-reverse': 'marquee-reverse 60s linear infinite',
-        'spin-slow': 'spin 5s linear infinite',
+        'fade-in-up': 'fade-in-up 0.5s ease-out forwards',
         'fade-in-down': 'fade-in-down 0.5s ease-out forwards',
-        'fade-in-up': 'fade-in-up 0.5s ease-out 0.2s forwards',
+        'spin-slow': 'spin 3s linear infinite',
       },
     },
   },
