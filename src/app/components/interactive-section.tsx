@@ -10,7 +10,6 @@ import { abstractionTranslationTool } from '@/ai/flows/abstraction-translation-t
 
 type TranslationDirection = 'termToMetaphor' | 'metaphorToTerm';
 
-// Types moved from the 'use server' file
 type AbstractionTranslationInput = {
   text: string;
   translationDirection: TranslationDirection;
@@ -96,7 +95,7 @@ export function InteractiveSection() {
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               placeholder={placeholder}
-              className="flex-1 text-base"
+              className="flex-1 md:text-sm"
               disabled={isLoading}
               onKeyDown={(e) => e.key === 'Enter' && handleTranslate()}
             />
