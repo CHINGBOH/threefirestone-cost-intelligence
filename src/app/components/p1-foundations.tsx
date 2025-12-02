@@ -14,7 +14,7 @@ export function Chapter1Section() {
       <div className="container mx-auto px-4">
         {/* Chapter Title */}
         <div className="mx-auto max-w-3xl text-center mb-16">
-          <Book className="mx-auto h-12 w-12 text-primary animate-bounce" />
+          <ToyBrick className="mx-auto h-12 w-12 text-primary animate-bounce" />
           <h2 className="mt-4 text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
             第一章：计算基础与抽象层级
           </h2>
