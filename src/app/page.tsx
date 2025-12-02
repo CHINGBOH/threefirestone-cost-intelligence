@@ -11,23 +11,30 @@ import { Chapter6Section } from '@/app/components/p6-llm-architecture';
 import { InteractiveSection } from '@/app/components/interactive-section';
 import { ConclusionSection } from '@/app/components/conclusion-section';
 import { Footer } from '@/app/components/footer';
+import { SidebarProvider, SidebarInset } from '@/components/ui/sidebar';
+import { AppSidebar } from './components/app-sidebar';
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col bg-background">
-      <Header />
-      <main className="flex-1">
-        <HeroSection />
-        <Chapter1Section />
-        <Chapter2Section />
-        <Chapter3Section />
-        <Chapter4Section />
-        <Chapter5Section />
-        <Chapter6Section />
-        <InteractiveSection />
-        <ConclusionSection />
-      </main>
-      <Footer />
-    </div>
+    <SidebarProvider>
+      <AppSidebar />
+      <SidebarInset>
+        <div className="flex min-h-screen flex-col bg-background">
+          <Header />
+          <main className="flex-1">
+            <HeroSection />
+            <Chapter1Section />
+            <Chapter2Section />
+            <Chapter3Section />
+            <Chapter4Section />
+            <Chapter5Section />
+            <Chapter6Section />
+            <InteractiveSection />
+            <ConclusionSection />
+          </main>
+          <Footer />
+        </div>
+      </SidebarInset>
+    </SidebarProvider>
   );
 }

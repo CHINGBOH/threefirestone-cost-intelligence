@@ -6,7 +6,7 @@ import { ArrowDown, BrainCircuit } from 'lucide-react';
 export function HeroSection() {
   const heroImage = PlaceHolderImages.find(p => p.id === 'hero');
   return (
-    <section className="relative h-[90vh] w-full">
+    <section id="hero" className="relative h-[90vh] w-full">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
