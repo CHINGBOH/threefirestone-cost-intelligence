@@ -4,7 +4,7 @@ import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: '探索电脑的奥秘：从底层原理到大型语言模型',
-  description: '系统梳理支撑现代计算机科学及其前沿应用——大型语言模型（LLM）的核心知识脉络。',
+  description: '这并非一份包罗万象的百科全书，而是一次精心策划的知识探险。它旨在系统性地梳理出一条从计算机底层理论到大型语言模型（LLM）的核心脉络，帮助您洞察理论与工程的内在联系。',
 };
 
 export default function RootLayout({
