@@ -7,24 +7,35 @@ import {
   SidebarMenuItem,
   SidebarMenuButton,
   SidebarContent,
-  SidebarTrigger,
-  SidebarGroup,
-  SidebarGroupLabel,
   useSidebar,
 } from '@/components/ui/sidebar';
-import { BookOpen, Cpu, ChevronsLeft, ChevronsRight } from 'lucide-react';
+import {
+  Book,
+  Cpu,
+  ChevronsLeft,
+  ChevronsRight,
+  BrainCircuit,
+  ToyBrick,
+  SquarePi,
+  Scale,
+  GraduationCap,
+  Code2,
+  Rss,
+  Wand2,
+  PartyPopper,
+} from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const sections = [
-  { id: 'hero', title: '介绍' },
-  { id: 'chapter-1', title: '第一章：计算基础' },
-  { id: 'chapter-2', title: '第二章：数学理论' },
-  { id: 'chapter-3', title: '第三章：统计与推断' },
-  { id: 'chapter-4', title: '第四章：机器学习' },
-  { id: 'chapter-5', title: '第五章：软件工程' },
-  { id: 'chapter-6', title: '第六章：大型语言模型' },
-  { id: 'interactive-zone', title: 'AI 互动区' },
-  { id: 'conclusion', title: '结论' },
+  { id: 'hero', title: '介绍', icon: <BrainCircuit /> },
+  { id: 'chapter-1', title: '第一章：计算基础', icon: <ToyBrick /> },
+  { id: 'chapter-2', title: '第二章：数学理论', icon: <SquarePi /> },
+  { id: 'chapter-3', title: '第三章：统计与推断', icon: <Scale /> },
+  { id: 'chapter-4', title: '第四章：机器学习', icon: <GraduationCap /> },
+  { id: 'chapter-5', title: '第五章：软件工程', icon: <Code2 /> },
+  { id: 'chapter-6', title: '第六章：大型语言模型', icon: <Rss /> },
+  { id: 'interactive-zone', title: 'AI 互动区', icon: <Wand2 /> },
+  { id: 'conclusion', title: '结论', icon: <PartyPopper /> },
 ];
 
 export function AppSidebar() {
@@ -51,7 +62,7 @@ export function AppSidebar() {
                 tooltip={{ children: section.title }}
               >
                 <a href={`#${section.id}`}>
-                  <BookOpen />
+                  {section.icon}
                   <span>{section.title}</span>
                 </a>
               </SidebarMenuButton>
@@ -72,7 +83,7 @@ export function AppSidebar() {
 export function AppSidebarTrigger() {
     const { open, setOpen } = useSidebar();
     return (
-        <Button variant="ghost" size="icon" onClick={() => setOpen(!open)}>
+        <Button variant="ghost" size="icon" onClick={() => setOpen(!open)} className="h-9 w-9">
             {open ? <ChevronsLeft /> : <ChevronsRight />}
         </Button>
     )
