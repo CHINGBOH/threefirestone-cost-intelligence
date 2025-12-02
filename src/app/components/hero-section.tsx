@@ -22,10 +22,10 @@ export function HeroSection() {
         <div className="container max-w-4xl">
           <BrainCircuit className="mx-auto h-16 w-16 text-primary animate-bounce" />
           <h1 className="mt-4 text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl font-headline animate-fade-in-down">
-            电脑的奥秘：从底层原理到大型语言模型
+            探索电脑的奥秘：从底层原理到大型语言模型
           </h1>
           <p className="mt-6 text-lg leading-8 text-foreground/80 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-            一份系统梳理从计算机底层到大型语言模型（LLM）的全面知识体系报告，深入探索理论与工程的内在联系。
+            这并非一份包罗万象的百科全书，而是一次精心策划的知识探险。它旨在系统性地梳理出一条从计算机底层理论到大型语言模型（LLM）的核心脉络，帮助您洞察理论与工程的内在联系。
           </p>
           <div className="mt-10 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             <Button size="lg" asChild className="animate-pulse">

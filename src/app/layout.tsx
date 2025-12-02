@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: '电脑的奥秘：从底层原理到大型语言模型',
-  description: '系统梳理支撑现代计算机科学及其前沿应用——大型语言模型（LLM）的知识体系。',
+  title: '探索电脑的奥秘：从底层原理到大型语言模型',
+  description: '系统梳理支撑现代计算机科学及其前沿应用——大型语言模型（LLM）的核心知识脉络。',
 };
 
 export default function RootLayout({
