@@ -4,8 +4,6 @@
  * @fileOverview A tool that translates computer functionality into real-world metaphors and vice-versa.
  *
  * - abstractionTranslationTool - A function that translates computer functionality into real-world metaphors.
- * - AbstractionTranslationInput - The input type for the abstractionTranslationTool function.
- * - AbstractionTranslationOutput - The return type for the abstractionTranslationTool function.
  */
 
 import {ai} from '@/ai/genkit';
@@ -18,13 +16,13 @@ const AbstractionTranslationInputSchema = z.object({
     .describe('The direction of the translation.'),
 });
 
-export type AbstractionTranslationInput = z.infer<typeof AbstractionTranslationInputSchema>;
+type AbstractionTranslationInput = z.infer<typeof AbstractionTranslationInputSchema>;
 
 const AbstractionTranslationOutputSchema = z.object({
   result: z.string().describe('The resulting translation.'),
 });
 
-export type AbstractionTranslationOutput = z.infer<typeof AbstractionTranslationOutputSchema>;
+type AbstractionTranslationOutput = z.infer<typeof AbstractionTranslationOutputSchema>;
 
 export async function abstractionTranslationTool(
   input: AbstractionTranslationInput

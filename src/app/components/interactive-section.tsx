@@ -10,6 +10,17 @@ import { abstractionTranslationTool } from '@/ai/flows/abstraction-translation-t
 
 type TranslationDirection = 'termToMetaphor' | 'metaphorToTerm';
 
+// Types moved from the 'use server' file
+type AbstractionTranslationInput = {
+  text: string;
+  translationDirection: TranslationDirection;
+};
+
+type AbstractionTranslationOutput = {
+  result: string;
+};
+
+
 export function InteractiveSection() {
   const [inputValue, setInputValue] = useState('');
   const [result, setResult] = useState('');
