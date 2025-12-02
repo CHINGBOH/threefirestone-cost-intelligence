@@ -46,7 +46,7 @@ const sections = [
   { id: 'chapter-5', title: '第五章：软件工程', icon: <Code2 /> },
   { id: 'chapter-6', title: '第六章：大型语言模型', icon: <Rss /> },
   { id: 'chapter-7', title: '第七章：AI前沿', icon: <Zap /> },
-  { id: 'chapter-8', title: '第八章：计算机体系结构', icon: <MemoryStick /> },
+  { id: 'chapter-8', title: '第八章：从沙子到思想', icon: <Cpu /> },
   { id: 'chapter-9', title: '第九章：操作系统与网络', icon: <Network /> },
   { id: 'chapter-10', title: '第十章：数据库系统', icon: <Database /> },
   { id: 'chapter-11', title: '第十一章：计算机视觉', icon: <Eye /> },
