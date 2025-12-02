@@ -9,7 +9,18 @@
     pkgs.zulu
   ];
   # Sets environment variables in the workspace
-  env = {};
+  env = {
+    # This is the connection string for your PostgreSQL database.
+    # On IDX, you can typically use the default service, but for local deployment,
+    # you'll need to update this to point to your local or cloud database.
+    # DATABASE_URL = "postgresql://user:password@localhost:5432/mydatabase";
+
+    # Your API key for the Gemini API.
+    # Keep this secret and do not commit it to version control.
+    GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE";
+
+    DEEPSEEK_API_KEY = "YOUR_DEEPSEEK_API_KEY_HERE";
+  };
   # This adds a file watcher to startup the firebase emulators. The emulators will only start if
   # a firebase.json file is written into the user's directory
   services.firebase.emulators = {
