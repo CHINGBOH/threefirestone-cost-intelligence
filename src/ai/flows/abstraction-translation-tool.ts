@@ -35,10 +35,13 @@ const prompt = ai.definePrompt({
   name: 'abstractionTranslationPrompt',
   input: {schema: AbstractionTranslationInputSchema},
   output: {schema: AbstractionTranslationOutputSchema},
-  prompt: `你是一位擅长用生动有趣的比喻来解释复杂计算机概念的专家。
-  请将以下计算机功能翻译成一个小学生也能轻松理解的比喻：
+  prompt: `你是一位擅长用生动有趣的比喻来解释复杂计算机概念的专家。你的比喻风格应该和这个网站的风格保持一致：通俗易懂、充满想象力，就像给好奇心旺盛的成年人讲故事一样。
+  
+  请将以下计算机功能翻译成一个生动的比喻：
 
-  {{computerFunctionality}}`,
+  "{{computerFunctionality}}"
+
+  请直接返回比喻，不要添加任何额外的解释或开场白。`,
 });
 
 const abstractionTranslationFlow = ai.defineFlow(
