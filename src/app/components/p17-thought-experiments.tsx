@@ -38,7 +38,7 @@ export function Chapter17Section() {
             <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><Brain className="text-primary"/>中文房间与意识之谜</h3>
             <div className="space-y-4 text-muted-foreground">
               <p><strong className="text-foreground">“中文房间”思想实验</strong>质问：一个仅仅遵循规则处理符号的系统（就算它能完美地通过图灵测试），它真的“理解”语言吗？还是只是在进行无意识的符号操纵？这个问题直指AI“意识”的核心。</p>
-              <p>今天的LLM，在某种程度上就是一个极其复杂的“中文房间”。它是否拥有真正的理解力，或者说，当复杂性高到一定程度后，符号操纵本身是否就会涌现出“理解”？这是一个悬而未决的深刻问题。</p>
+              <p>今天的LLM，在某种程度上就是一个极其复杂的“中文房间”。它是否拥有真正的理解力，或者说，当硬件条件允许的复杂性高到一定程度后，符号操纵本身是否就会涌现出“理解”甚至“想象力”？这是一个悬而未决的深刻问题。</p>
               <Card className="bg-background/80 border-primary/20">
                 <CardHeader>
                   <CardTitle className="font-headline text-lg">通俗比喻：鹦鹉学舌 vs 理解诗意</CardTitle>

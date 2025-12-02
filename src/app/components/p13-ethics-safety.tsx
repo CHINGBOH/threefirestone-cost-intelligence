@@ -37,7 +37,7 @@ export function Chapter13Section() {
             <Badge variant="secondary" className="mb-4">XIII.1 重要的护栏</Badge>
             <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><Scale className="text-primary"/>偏见、隐私与对齐</h3>
             <div className="space-y-4 text-muted-foreground">
-              <p><strong className="text-foreground">偏见 (Bias)</strong>：如果训练数据本身就包含社会偏见（例如，某个职业的图片多为男性），模型就会“学会”并放大这种偏见。<strong className="text-foreground">隐私 (Privacy)</strong>：模型可能会无意中泄露训练数据中的个人敏感信息。<strong className="text-foreground">对齐 (Alignment)</strong>：如何确保AI模型的目标和行为，始终与人类的价值观和长远利益保持一致？这是一个深刻且开放的挑战。</p>
+              <p><strong className="text-foreground">偏见 (Bias)</strong>：如果训练数据本身就包含社会偏见（例如，某个职业的图片多为男性），模型就会“学会”并放大这种偏见。<strong className="text-foreground">隐私 (Privacy)</strong>：模型可能会无意中泄露训练数据中的个人敏感信息。<strong className="text-foreground">对齐 (Alignment)</strong>：如何确保AI模型的目标和行为，始终与人类的价值观和长远利益保持一致？这是一个深刻且开放的挑战，它也触及了我们“既怕AI太无能，又怕AI太能干”的深层矛盾。</p>
               <Card className="bg-background/80 border-primary/20">
                 <CardHeader>
                   <CardTitle className="font-headline text-lg">通俗比喻：教育一个孩子</CardTitle>

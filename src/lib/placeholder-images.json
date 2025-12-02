@@ -3,103 +3,103 @@
     {
       "id": "hero",
       "description": "一个抽象的、发光的神经网络结构图，背景是深蓝色，充满科技感。",
-      "imageUrl": "https://images.unsplash.com/photo-1737505599159-5ffc1dcbc08f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bmV1cmFsJTIwbmV0d29yayUyMGFic3RyYWN0fGVufDB8fHx8MTc2NDYwNzYxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1744130268258-61c979125fc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzY0NjA3NjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "neural network abstract"
     },
     {
       "id": "automata",
       "description": "一台老式的、卡通风格的自动售货机，旁边有一只友好的机器人正在操作它。",
-      "imageUrl": "https://images.unsplash.com/photo-1657468905057-b24e782d60a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYXJ0b29uJTIwcm9ib3QlMjB2ZW5kaW5nfGVufDB8fHx8MTc2NDYzMzQ3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1600523553226-785e0d0e2a42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYXJ0b29uJTIwcm9ib3QlMjB2ZW5kaW5nfGVufDB8fHx8MTc2NDYzMzQ3MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cartoon robot vending"
     },
     {
       "id": "complexity",
       "description": "一个卡通人物站在一个复杂的迷宫前，表情困惑，旁边有一条简单的直线路径作为对比。",
-      "imageUrl": "https://images.unsplash.com/photo-1544694783-75828632f0f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYXJ0b29uJTIwbWF6ZXxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1574390353491-92705370c72e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYXJ0b29uJTIwbWF6ZXxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cartoon maze"
     },
     {
       "id": "entropy",
       "description": "两个玻璃罐子，一个装满了整齐排列的彩色糖果，另一个装满了混乱混合的糖果。",
-      "imageUrl": "https://images.unsplash.com/photo-1520966347624-b86c3042b3b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYW5keSUyMGphcnxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1705591395633-dc31a7b3c8ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYW5keSUyMGphcnxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "candy jar"
     },
     {
       "id": "linear-algebra",
       "description": "一束光通过一个棱镜，分解成彩虹的七种颜色，展示了向量分解的概念。",
-      "imageUrl": "https://images.unsplash.com/photo-1709255230141-f8566cfb9d0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJpc20lMjBsaWdodCUyMHJhaW5ib3d8ZW58MHx8fHwxNzY0NjMzNjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1705657066068-997c3ac181d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcmlzbSUyMGxpZ2h0JTIwcmFpbmJvd3xlbnwwfHx8fDE3NjQ2MzM2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "prism light rainbow"
     },
     {
       "id": "pca",
       "description": "皮影戏，复杂的人物通过二维的影子来呈现。",
-      "imageUrl": "https://images.unsplash.com/photo-1758758044965-1035b57a6878?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzaGFkb3clMjBwdXBwZXR8ZW58MHx8fHwxNzY0NjMzNjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1764267703950-5931da5f9bbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzaGFkb3clMjBwdXBwZXR8ZW58MHx8fHwxNzY0NjMzNjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "shadow puppet"
     },
     {
       "id": "lora",
       "description": "一幅古典油画（蒙娜丽莎），有人正在给它加上一副可爱的卡通太阳镜。",
-      "imageUrl": "https://images.unsplash.com/photo-1607857531075-d81f84c465d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb25hJTIwbGlzYSUyMHN1bmdsYXNzZXN8ZW58MHx8fHwxNzY0NjMzNjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1692306088530-e81ab626753b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb25hJTIwbGlzYSUyMHN1bmdsYXNzZXN8ZW58MHx8fHwxNzY0NjMzNjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mona lisa sunglasses"
     },
     {
       "id": "statistics",
       "description": "一位侦探（福尔摩斯风格）拿着放大镜，仔细研究地面上的脚印，进行推断。",
-      "imageUrl": "https://images.unsplash.com/photo-1583606558078-270edb1dbbce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ0b29uJTIwZGV0ZWN0aXZlfGVufDB8fHx8MTc2NDU1NjU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1648348329481-93f85519a868?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYXJ0b29uJTIwZGV0ZWN0aXZlfGVufDB8fHx8MTc2NDU1NjU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cartoon detective"
     },
     {
       "id": "bayes-theorem",
       "description": "一位卡通风格的天气预报员，看着窗外的新天气，更新他背后的天气预报板。",
-      "imageUrl": "https://images.unsplash.com/photo-1589724189661-1f593f4606d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjYXJ0b29uJTIwd2VhdGhlciUyMGZvcmVjYXN0fGVufDB8fHx8MTc2NDYzNDY3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1706696951898-5052cb7c569e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXJ0b29uJTIwd2VhdGhlciUyMGZvcmVjYXN0fGVufDB8fHx8MTc2NDYzNDY3NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cartoon weather forecast"
     },
     {
       "id": "learning-paradigms",
       "description": "一位老师在黑板前教两个机器人学生，一个在认真听讲，另一个在自己探索。",
-      "imageUrl": "https://images.unsplash.com/photo-1629248242719-c4d8b35fc3c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxyb2JvdCUyMHN0dWRlbnRzJTIwdGVhY2hlcnxlbnwwfHx8fDE3NjQ2MzMzODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1634912314602-0d01437e3540?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyb2JvdCUyMHN0dWRlbnRzJTIwdGVhY2hlcnxlbnwwfHx8fDE3NjQ2MzMzODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "robot students teacher"
     },
     {
       "id": "neural-network",
       "description": "一个发光的大脑神经元网络，充满了复杂的连接和节点。",
-      "imageUrl": "https://images.unsplash.com/photo-1678931547963-ab9017fc35c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnbG93aW5nJTIwYnJhaW4lMjBuZXVyb25zfGVufDB8fHx8MTc2NDYzMzM4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1649937801620-d31db7fb3ab3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnbG93aW5nJTIwYnJhaW4lMjBuZXVyb25zfGVufDB8fHx8MTc2NDYzMzM4MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "glowing brain neurons"
     },
     {
       "id": "backpropagation",
       "description": "一排多米诺骨牌正在反向倒下，象征着从结果反推原因的过程。",
-      "imageUrl": "https://images.unsplash.com/photo-1662748562746-076cb42b0186?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkb21pbm9lcyUyMGZhbGxpbmd8ZW58MHx8fHwxNzY0NjMzMzgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1645538097249-7dd6a4ca59ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkb21pbm9lcyUyMGZhbGxpbmd8ZW58MHx8fHwxNzY0NjMzMzgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dominoes falling"
     },
     {
       "id": "gradient-descent",
       "description": "一个登山者在群山之中，沿着最陡峭的路径向下走，走向山谷的最低点。",
-      "imageUrl": "https://images.unsplash.com/photo-1643462226245-9ac0a84b73c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb3VudGFpbiUyMGhpa2VyJTIwZG93bnxlbnwwfHx8fDE3NjQ2Mzc3NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1493972745584-45fb5718adb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb3VudGFpbiUyMGhpa2VyJTIwZG93bnxlbnwwfHx8fDE3NjQ2Mzc3NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mountain hiker down"
     },
     {
       "id": "overfitting",
       "description": "一个学生面前有两张试卷，一张是练习题，他得了满分；另一张是新考题，他得了不及格。",
-      "imageUrl": "https://images.unsplash.com/photo-1643706755594-d0e8d8d42a09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2Nob29sJTIwZXhhbSUyMHRlc3R8ZW58MHx8fHwxNzY0NjM3NzYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzY2hvb2wlMjBleGFtJTIwdGVzdHxlbnwwfHx8fDE3NjQ2Mzc3NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "school exam test"
     },
     {
       "id": "model-evaluation",
       "description": "一个裁判正在给一个机器人打分，旁边有一个记分牌显示着各种评分项目。",
-      "imageUrl": "https://images.unsplash.com/photo-1700938053364-0ea2d0de9244?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyZWZlcmVlJTIwcm9ib3QlMjBzY29yZXxlbnwwfHx8fDE3NjQ2Mzc3NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1730967642991-97670c5817a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxyZWZlcmVlJTIwcm9ib3QlMjBzY29yZXxlbnwwfHx8fDE3NjQ2Mzc3NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "referee robot score"
     },
     {
       "id": "programming-paradigms",
       "description": "乐高积木搭建的复杂结构与一条简洁的生产线并排展示。",
-      "imageUrl": "https://images.unsplash.com/photo-1752322070180-17fcbc733933?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bGVnbyUyMGZhY3Rvcnl8ZW58MHx8fHwxNzY0NjMzNDcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1752322070110-8cb4808269ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZWdvJTIwZmFjdG9yeXxlbnwwfHx8fDE3NjQ2MzM0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "lego factory"
     },
     {
       "id": "solid-principles",
       "description": "一个插座面板上插着各种不同设备的充电线，都通过USB-C接口连接。",
-      "imageUrl": "https://images.unsplash.com/photo-1741666998073-7df07563d4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx1bml2ZXJzYWwlMjBhZGFwdGVyJTIwcGx1Z3xlbnwwfHx8fDE3NjQ2MzM0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1628518514265-47b6ab5f6092?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx1bml2ZXJzYWwlMjBhZGFwdGVyJTIwcGx1Z3xlbnwwfHx8fDE3NjQ2MzM0NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "universal adapter plug"
     },
     {
@@ -111,31 +111,31 @@
     {
       "id": "peft",
       "description": "一个核心的机器人模型，周围有各种可插拔的“技能模块”，比如画画、音乐、写作。",
-      "imageUrl": "https://images.unsplash.com/photo-1589254065909-b7086229d08c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyb2JvdCUyMHNraWxsJTIwbW9kdWxlc3xlbnwwfHx8fDE3NjQ2MzM2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1710098455568-441061ab4dfa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cm9ib3QlMjBza2lsbCUyMG1vZHVsZXN8ZW58MHx8fHwxNzY0NjMzNjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "robot skill modules"
     },
     {
       "id": "catastrophic-forgetting",
       "description": "一个卡通机器人一手拿着新知识的“灯泡”，另一只手里的旧知识“书本”正在慢慢消失。",
-      "imageUrl": "https://images.unsplash.com/photo-1666597107756-ef489e9f1f09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyb2JvdCUyMGZvcmdldHRpbmclMjBrbm93bGVkZ2V8ZW58MHx8fHwxNzY0NjMzNjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1634910409614-71a507e13588?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyb2JvdCUyMGZvcmdldHRpbmclMjBrbm93bGVkZ2V8ZW58MHx8fHwxNzY0NjMzNjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "robot forgetting knowledge"
     },
     {
       "id": "inference-optimization",
       "description": "一个穿着赛车服的卡通机器人正在给一个复杂的引擎进行减重和优化，旁边有计时器显示速度在提升。",
-      "imageUrl": "https://images.unsplash.com/photo-1609872209699-3e55dc7d90b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyb2JvdCUyMHJhY2luZyUyMGVuZ2luZXxlbnwwfHx8fDE3NjQ2MzM2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1523559094051-53bac879eb80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyb2JvdCUyMHJhY2luZyUyMGVuZ2luZXxlbnwwfHx8fDE3NjQ2MzM2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "robot racing engine"
     },
     {
       "id": "parallel-computing",
       "description": "数千名工人在统一指挥下共同建造一座巨大的金字塔，场面宏大。",
-      "imageUrl": "https://images.unsplash.com/photo-1698043648827-138d5102541b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGFyYWxsZWwlMjBjb21wdXRpbmclMjBhYnN0cmFjdHxlbnwwfHx8fDE3NjQ2Mzc3NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1664526936810-ec0856d31b92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwYXJhbGxlbCUyMGNvbXB1dGluZyUyMGFic3RyYWN0fGVufDB8fHx8MTc2NDYzNzc2MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "parallel computing abstract"
     },
     {
       "id": "hallucination",
       "description": "一位超现实主义艺术家正在创作一幅画，画中的元素天马行空，不合常理但又充满想象力。",
-      "imageUrl": "https://images.unsplash.com/photo-1596044437813-ad3b96ff93ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3VycmVhbCUyMGFydGlzdCUyMGNyZWF0aW5nfGVufDB8fHx8MTc2NDYzNzc2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1727905845455-41f099fbeeff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdXJyZWFsJTIwYXJ0aXN0JTIwY3JlYXRpbmd8ZW58MHx8fHwxNzY0NjM3NzYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "surreal artist creating"
     },
     {
@@ -147,31 +147,31 @@
     {
       "id": "architecture",
       "description": "一张CPU芯片的特写照片，展示了其复杂的电路和针脚。",
-      "imageUrl": "https://images.unsplash.com/photo-1739025738498-9caddd7ab489?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcHUlMjBjbG9zZXVwfGVufDB8fHx8MTc2NDYzNzc2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1581342028699-30d895aad5c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjcHUlMjBjbG9zZXVwfGVufDB8fHx8MTc2NDYzNzc2MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cpu closeup"
     },
     {
       "id": "memory-hierarchy",
       "description": "一个厨房里，厨师的工作台上有少量常用调料，旁边有中等大小的冰箱，远处还有一个巨大的仓库。",
-      "imageUrl": "https://images.unsplash.com/photo-1726928454304-99f899f52dc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxraXRjaGVuJTIwd2FyZWhvdXNlfGVufDB8fHx8MTc2NDYzODIwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1697869812795-8a8014cd53a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxraXRjaGVuJTIwd2FyZWhvdXNlfGVufDB8fHx8MTc2NDYzODIwNXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kitchen warehouse"
     },
     {
       "id": "os-networking",
       "description": "一个繁忙的交换机或路由器，上面插满了网线，灯光在闪烁，象征着数据的流动。",
-      "imageUrl": "https://images.unsplash.com/photo-1551703599-2a53f65da7e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxuZXR3b3JrJTIwc3dpdGNofGVufDB8fHx8MTc2NDUyODExMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1520869562399-e772f042f422?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuZXR3b3JrJTIwc3dpdGNofGVufDB8fHx8MTc2NDUyODExMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "network switch"
     },
     {
       "id": "databases",
       "description": "一个现代化的数据中心，成排的服务器机柜亮着指示灯。",
-      "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXRhJTIwY2VudGVyfGVufDB8fHx8MTc2NDU1NDQwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGF0YSUyMGNlbnRlcnxlbnwwfHx8fDE3NjQ1NTQ0MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "data center"
     },
     {
       "id": "computer-vision",
       "description": "一个机器人的眼睛特写，瞳孔中反射出复杂的图像数据。",
-      "imageUrl": "https://images.unsplash.com/photo-1750096319146-6310519b5af2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyb2JvdCUyMGV5ZXxlbnwwfHx8fDE3NjQ2Mzc3NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1662558275658-6ed96c5e2380?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyb2JvdCUyMGV5ZXxlbnwwfHx8fDE3NjQ2Mzc3NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "robot eye"
     },
     {
@@ -183,7 +183,7 @@
     {
       "id": "ethics-safety",
       "description": "一架天平，一端是代表AI能力的机器人图标，另一端是代表人类福祉的心形图标。",
-      "imageUrl": "https://images.unsplash.com/photo-1622837633469-ee5b894a4f59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxiYWxhbmNlJTIwc2NhbGV8ZW58MHx8fHwxNzY0NjM3NzYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1612012060851-20f943c02d3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiYWxhbmNlJTIwc2NhbGV8ZW58MHx8fHwxNzY0NjM3NzYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "balance scale"
     },
     {
@@ -201,13 +201,13 @@
     {
       "id": "future-outlook",
       "description": "一个人站在山顶，通过望远镜眺望远方充满未来感的城市天际线。",
-      "imageUrl": "https://images.unsplash.com/photo-1556379092-dca659792591?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmdXR1cmUlMjBjaXR5fGVufDB8fHx8MTc2NDU5OTAxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1560390816-3400050aab0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmdXR1cmUlMjBjaXR5fGVufDB8fHx8MTc2NDU5OTAxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "future city"
     },
     {
       "id": "thought-experiments",
       "description": "一个被问号包围的漂浮大脑，象征着思考和哲学问题。",
-      "imageUrl": "https://images.unsplash.com/photo-1709651669999-57741c9bf085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmbG9hdGluZyUyMGJyYWlufGVufDB8fHx8MTc2NDYzNzc2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1727529882479-9d9b6328946d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmbG9hdGluZyUyMGJyYWlufGVufDB8fHx8MTc2NDYzNzc2MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "floating brain"
     }
   ]
