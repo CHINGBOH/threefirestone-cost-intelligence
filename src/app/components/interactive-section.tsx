@@ -95,7 +95,7 @@ export function InteractiveSection() {
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               placeholder={placeholder}
-              className="flex-1"
+              className="flex-1 md:text-sm"
               disabled={isLoading}
               onKeyDown={(e) => e.key === 'Enter' && handleTranslate()}
             />
@@ -112,7 +112,7 @@ export function InteractiveSection() {
           {error && <p className="mt-4 text-center text-destructive">{error}</p>}
 
           {(isLoading || result) && (
-            <Card className="mt-8 w-full animate-fade-in-up bg-background/50">
+            <Card className="mt-6 w-full animate-fade-in-up bg-background/50">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 font-headline text-lg">
                   <Lightbulb className="text-primary" />

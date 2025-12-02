@@ -31,7 +31,7 @@ export default function Home() {
     <SidebarProvider>
       <AppSidebar />
       <SidebarInset>
-        <div className="flex min-h-screen flex-col bg-background">
+        <div className="flex min-h-screen flex-col">
           <Header />
           <main className="flex-1">
             <HeroSection />
