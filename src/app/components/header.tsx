@@ -1,4 +1,4 @@
-import { Cpu, BookOpen } from 'lucide-react';
+import { Cpu } from 'lucide-react';
 import { AppSidebarTrigger } from './app-sidebar';
 
 
