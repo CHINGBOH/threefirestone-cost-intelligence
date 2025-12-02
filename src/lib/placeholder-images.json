@@ -9,43 +9,43 @@
     {
       "id": "automata",
       "description": "一台老式的、卡通风格的自动售货机，旁边有一只友好的机器人正在操作它。",
-      "imageUrl": "https://images.unsplash.com/photo-1754195451509-00c25c20fdde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYXJ0b29uJTIwcm9ib3QlMjB2ZW5kaW5nfGVufDB8fHx8MTc2NDYzMzQ3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1721932522652-c8f79059b229?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjYXJ0b29uJTIwcm9ib3QlMjB2ZW5kaW5nfGVufDB8fHx8MTc2NDYzMzQ3MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cartoon robot vending"
     },
     {
       "id": "complexity",
       "description": "一个卡通人物站在一个复杂的迷宫前，表情困惑，旁边有一条简单的直线路径作为对比。",
-      "imageUrl": "https://images.unsplash.com/photo-1587972906193-e8ae5d7f21bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXJ0b29uJTIwbWF6ZXxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1544694783-75828632f0f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYXJ0b29uJTIwbWF6ZXxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cartoon maze"
     },
     {
       "id": "entropy",
       "description": "两个玻璃罐子，一个装满了整齐排列的彩色糖果，另一个装满了混乱混合的糖果。",
-      "imageUrl": "https://images.unsplash.com/photo-1614990353696-569f076148e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2FuZHklMjBqYXJ8ZW58MHx8fHwxNzY0NjMyOTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1520966347624-b86c3042b3b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYW5keSUyMGphcnxlbnwwfHx8fDE3NjQ2MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "candy jar"
     },
     {
       "id": "linear-algebra",
       "description": "一束光通过一个棱镜，分解成彩虹的七种颜色，展示了向量分解的概念。",
-      "imageUrl": "https://images.unsplash.com/photo-1580508233726-605986aeca82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwYWludGVkJTIwYWJzdHJhY3QlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzY0NjMyOTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "painted abstract landscape"
+      "imageUrl": "https://images.unsplash.com/photo-1706257085563-eae02e34f5bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcmlzbSUyMGxpZ2h0JTIwcmFpbmJvd3xlbnwwfHx8fDE3NjQ2MzM2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "prism light rainbow"
     },
     {
       "id": "pca",
       "description": "皮影戏，复杂的人物通过二维的影子来呈现。",
-      "imageUrl": "https://images.unsplash.com/photo-1651878988623-09a12f70468e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YXNpYW4lMjBzaGFkb3clMjBwdXBwZXR8ZW58MHx8fHwxNzY0NjMyOTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "asian shadow puppet"
+      "imageUrl": "https://images.unsplash.com/photo-1627140396257-cd24aa8173ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaGFkb3clMjBwdXBwZXR8ZW58MHx8fHwxNzY0NjMzNjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shadow puppet"
     },
     {
       "id": "lora",
       "description": "一幅古典油画（蒙娜丽莎），有人正在给它加上一副可爱的卡通太阳镜。",
-      "imageUrl": "https://images.unsplash.com/photo-1643663351350-43d1868e0bf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwYWludGluZyUyMHZhbiUyMGdvZ2h8ZW58MHx8fHwxNzY0NjMyOTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "painting van gogh"
+      "imageUrl": "https://images.unsplash.com/photo-1645735172210-7002a463516a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb25hJTIwbGlzYSUyMHN1bmdsYXNzZXN8ZW58MHx8fHwxNzY0NjMzNjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mona lisa sunglasses"
     },
     {
       "id": "statistics",
       "description": "一位侦探（福尔摩斯风格）拿着放大镜，仔细研究地面上的脚印，进行推断。",
-      "imageUrl": "https://images.unsplash.com/photo-1581010105372-caf9ed5ab50f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYXJ0b29uJTIwZGV0ZWN0aXZlfGVufDB8fHx8MTc2NDU1NjU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1636056471685-1cfdfa9d2e4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjYXJ0b29uJTIwZGV0ZWN0aXZlfGVufDB8fHx8MTc2NDU1NjU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cartoon detective"
     },
     {
@@ -57,26 +57,50 @@
     {
       "id": "neural-network",
       "description": "一个发光的大脑神经元网络，充满了复杂的连接和节点。",
-      "imageUrl": "https://images.unsplash.com/photo-1649937801620-d31db7fb3ab3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnbG93aW5nJTIwYnJhaW4lMjBuZXVyb25zfGVufDB8fHx8MTc2NDYzMzM4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1650648065216-1e80af24193b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnbG93aW5nJTIwYnJhaW4lMjBuZXVyb25zfGVufDB8fHx8MTc2NDYzMzM4MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "glowing brain neurons"
     },
     {
       "id": "backpropagation",
       "description": "一排多米诺骨牌正在反向倒下，象征着从结果反推原因的过程。",
-      "imageUrl": "https://images.unsplash.com/photo-1628237094183-262cb5c8e173?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkb21pbm9lcyUyMGZhbGxpbmd8ZW58MHx8fHwxNzY0NjMzMzgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1662748562746-076cb42b0186?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkb21pbm9lcyUyMGZhbGxpbmd8ZW58MHx8fHwxNzY0NjMzMzgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dominoes falling"
     },
     {
       "id": "programming-paradigms",
       "description": "乐高积木搭建的复杂结构与一条简洁的生产线并排展示。",
-      "imageUrl": "https://images.unsplash.com/photo-1560642050-c55308e78fb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsZWdvJTIwZmFjdG9yeXxlbnwwfHx8fDE3NjQ2MzM0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1752322070110-8cb4808269ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZWdvJTIwZmFjdG9yeXxlbnwwfHx8fDE3NjQ2MzM0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "lego factory"
     },
     {
       "id": "solid-principles",
       "description": "一个插座面板上插着各种不同设备的充电线，都通过USB-C接口连接。",
-      "imageUrl": "https://images.unsplash.com/photo-1763161786687-43d0c9babdf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx1bml2ZXJzYWwlMjBhZGFwdGVyJTIwcGx1Z3xlbnwwfHx8fDE3NjQ2MzM0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1603899122911-27c0cb85824a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx1bml2ZXJzYWwlMjBhZGFwdGVyJTIwcGx1Z3xlbnwwfHx8fDE3NjQ2MzM0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "universal adapter plug"
+    },
+    {
+      "id": "transformer",
+      "description": "一个可爱的卡通机器人坐在一大堆书上，正在快速阅读，眼睛里闪烁着数据。",
+      "imageUrl": "https://images.unsplash.com/photo-1603015194234-f45edc046e15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2FydG9vbiUyMHJvYm90JTIwcmVhZGluZ3xlbnwwfHx8fDE3NjQ2MzM2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon robot reading"
+    },
+    {
+      "id": "peft",
+      "description": "一个核心的机器人模型，周围有各种可插拔的“技能模块”，比如画画、音乐、写作。",
+      "imageUrl": "https://images.unsplash.com/photo-1742767069929-0c663150b164?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyb2JvdCUyMHNraWxsJTIwbW9kdWxlc3xlbnwwfHx8fDE3NjQ2MzM2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robot skill modules"
+    },
+    {
+      "id": "catastrophic-forgetting",
+      "description": "一个卡通机器人一手拿着新知识的“灯泡”，另一只手里的旧知识“书本”正在慢慢消失。",
+      "imageUrl": "https://images.unsplash.com/photo-1650171457588-dc7baef3ed22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyb2JvdCUyMGZvcmdldHRpbmclMjBrbm93bGVkZ2V8ZW58MHx8fHwxNzY0NjMzNjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robot forgetting knowledge"
+    },
+    {
+      "id": "inference-optimization",
+      "description": "一个穿着赛车服的卡通机器人正在给一个复杂的引擎进行减重和优化，旁边有计时器显示速度在提升。",
+      "imageUrl": "https://images.unsplash.com/photo-1554373086-7453761b5983?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyb2JvdCUyMHJhY2luZyUyMGVuZ2luZXxlbnwwfHx8fDE3NjQ2MzM2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robot racing engine"
     }
   ]
 }

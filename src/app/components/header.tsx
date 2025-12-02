@@ -15,7 +15,7 @@ const sections = [
   { id: 'chapter-3', title: '第三章：统计与推断基础' },
   { id: 'chapter-4', title: '第四章：机器学习与深度学习基础' },
   { id: 'chapter-5', title: '第五章：软件工程与编程范式' },
-  // Future chapters will be added here
+  { id: 'chapter-6', title: '第六章：大型语言模型（LLM）体系结构' },
 ]
 
 export function Header() {
