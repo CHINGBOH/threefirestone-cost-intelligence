@@ -105,11 +105,15 @@ export default {
             transform: 'translateY(0)',
           },
         },
+        'spin-slow': {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' },
+        }
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
-        'spin-slow': 'spin 3s linear infinite',
+        'spin-slow': 'spin-slow 3s linear infinite',
         'fade-in-up': 'fade-in-up 0.6s ease-out forwards',
         'fade-in-down': 'fade-in-down 0.6s ease-out forwards',
       },
