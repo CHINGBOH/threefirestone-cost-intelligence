@@ -2,10 +2,11 @@ import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Scale, Target } from 'lucide-react';
+import { Scale, Target, RefreshCw } from 'lucide-react';
 
 export function Chapter3Section() {
   const statisticsImage = PlaceHolderImages.find(p => p.id === 'statistics');
+  const bayesImage = PlaceHolderImages.find(p => p.id === 'bayes-theorem');
 
   return (
     <section id="chapter-3" className="py-20 sm:py-32">
@@ -52,6 +53,39 @@ export function Chapter3Section() {
             )}
           </div>
         </div>
+
+        {/* III.2 Bayes' Theorem */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+           <div className="relative animate-fade-in-up order-last lg:order-first">
+            {bayesImage && (
+              <Image 
+                src={bayesImage.imageUrl} 
+                alt={bayesImage.description}
+                width={600}
+                height={450}
+                className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
+                data-ai-hint={bayesImage.imageHint}
+              />
+            )}
+          </div>
+          <div className="animate-fade-in-up order-first lg:order-last" style={{animationDelay: '0.3s'}}>
+            <Badge variant="secondary" className="mb-4">III.2 贝叶斯定理</Badge>
+            <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><RefreshCw className="text-primary"/>在新证据面前更新信念</h3>
+            <div className="space-y-4 text-muted-foreground">
+              <p><strong className="text-foreground">贝叶斯定理</strong>提供了一个强大的框架，用于在新证据出现时更新我们对某件事的信念（概率）。它结合了先验知识（我们开始时的信念）和新的数据，来得出更准确的后验概率。</p>
+              <p>贝叶斯方法在许多AI领域都有应用，例如垃圾邮件过滤、医疗诊断，以及帮助模型处理不确定性。</p>
+              <Card className="bg-background/50 border-primary/20">
+                <CardHeader>
+                  <CardTitle className="font-headline text-lg">通俗比喻：天气预报员的自我修正</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p>一位天气预报员早上根据历史数据预测今天下雨的概率是30%（先验概率）。然后他拉开窗帘，发现外面乌云密布（新证据）。他会立即结合这个新观察，更新自己的预测，认为现在下雨的概率可能高达80%（后验概率）。贝叶斯定理就是这个“根据新情况、修正旧判断”的数学公式。</p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );

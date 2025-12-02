@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Rss, ToyBrick, MemoryStick, Rocket, Lightbulb, Recycle } from 'lucide-react';
+import { Rss, ToyBrick, Lightbulb, Recycle, Rocket } from 'lucide-react';
 
 export function Chapter6Section() {
   const transformerImage = PlaceHolderImages.find(p => p.id === 'transformer');
