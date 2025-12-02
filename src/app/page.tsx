@@ -8,6 +8,7 @@ import { Chapter3Section } from '@/app/components/p3-statistics';
 import { Chapter4Section } from '@/app/components/p4-ml-dl';
 import { Chapter5Section } from '@/app/components/p5-software-engineering';
 import { Chapter6Section } from '@/app/components/p6-llm-architecture';
+import { Chapter7Section } from '@/app/components/p7-frontiers';
 import { InteractiveSection } from '@/app/components/interactive-section';
 import { ConclusionSection } from '@/app/components/conclusion-section';
 import { Footer } from '@/app/components/footer';
@@ -29,6 +30,7 @@ export default function Home() {
             <Chapter4Section />
             <Chapter5Section />
             <Chapter6Section />
+            <Chapter7Section />
             <InteractiveSection />
             <ConclusionSection />
           </main>

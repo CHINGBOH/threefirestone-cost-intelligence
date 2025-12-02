@@ -23,6 +23,7 @@ import {
   Rss,
   Wand2,
   PartyPopper,
+  Zap,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -34,6 +35,7 @@ const sections = [
   { id: 'chapter-4', title: '第四章：机器学习', icon: <GraduationCap /> },
   { id: 'chapter-5', title: '第五章：软件工程', icon: <Code2 /> },
   { id: 'chapter-6', title: '第六章：大型语言模型', icon: <Rss /> },
+  { id: 'chapter-7', title: '第七章：AI前沿', icon: <Zap /> },
   { id: 'interactive-zone', title: 'AI 互动区', icon: <Wand2 /> },
   { id: 'conclusion', title: '结论', icon: <PartyPopper /> },
 ];
