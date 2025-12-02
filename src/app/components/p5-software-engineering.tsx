@@ -70,7 +70,7 @@ export function Chapter5Section() {
           </div>
           <div className="animate-fade-in-up order-first lg:order-last" style={{animationDelay: '0.3s'}}>
             <Badge variant="secondary" className="mb-4">V.2 高质量软件设计</Badge>
-            <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><BrickWall className="text-primary"/>模块化与SOLID原则</h3>
+            <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><BrickWall className="text-primary"/>模块化与依赖倒置</h3>
             <div className="space-y-4 text-muted-foreground">
               <p>软件设计就像盖房子，模块化和SOLID原则是保证房子坚固、易于扩展的“建筑图纸”。特别是<strong className="text-foreground">依赖倒置原则 (DIP)</strong>，它要求我们的代码不应该依赖于具体实现，而应该依赖于抽象的“接口”。</p>
               <Card className="bg-background/50 border-primary/20">
