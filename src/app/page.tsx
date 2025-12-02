@@ -14,6 +14,7 @@ import { ConclusionSection } from '@/app/components/conclusion-section';
 import { Footer } from '@/app/components/footer';
 import { SidebarProvider, SidebarInset } from '@/components/ui/sidebar';
 import { AppSidebar } from './components/app-sidebar';
+import { BackToTop } from './components/back-to-top';
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
             <ConclusionSection />
           </main>
           <Footer />
+          <BackToTop />
         </div>
       </SidebarInset>
     </SidebarProvider>
