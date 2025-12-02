@@ -95,7 +95,7 @@ export function InteractiveSection() {
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               placeholder={placeholder}
-              className="flex-1 md:text-sm"
+              className="flex-1"
               disabled={isLoading}
               onKeyDown={(e) => e.key === 'Enter' && handleTranslate()}
             />
