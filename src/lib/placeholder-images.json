@@ -73,6 +73,24 @@
       "imageHint": "dominoes falling"
     },
     {
+      "id": "gradient-descent",
+      "description": "一个登山者在群山之中，沿着最陡峭的路径向下走，走向山谷的最低点。",
+      "imageUrl": "https://images.unsplash.com/photo-1616037149255-7b5618e4d352?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb3VudGFpbiUyMGhpZ2VyJTIwZG93bnxlbnwwfHx8fDE3NjQ2MzQ4MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mountain hiker down"
+    },
+    {
+      "id": "overfitting",
+      "description": "一个学生面前有两张试卷，一张是练习题，他得了满分；另一张是新考题，他得了不及格。",
+      "imageUrl": "https://images.unsplash.com/photo-1628177237154-15485455335a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzY2hvb2wlMjBleGFtJTIwdGVzdHxlbnwwfHx8fDE3NjQ2MzQ4MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "school exam test"
+    },
+    {
+      "id": "model-evaluation",
+      "description": "一个裁判正在给一个机器人打分，旁边有一个记分牌显示着各种评分项目。",
+      "imageUrl": "https://images.unsplash.com/photo-1690890637180-5a3d75a5a1f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyZWZlcmVlJTIwcm9ib3QlMjBzY29yZXxlbnwwfHx8fDE3NjQ2MzQ4MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "referee robot score"
+    },
+    {
       "id": "programming-paradigms",
       "description": "乐高积木搭建的复杂结构与一条简洁的生产线并排展示。",
       "imageUrl": "https://images.unsplash.com/photo-1752322070110-8cb4808269ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZWdvJTIwZmFjdG9yeXxlbnwwfHx8fDE3NjQ2MzM0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",

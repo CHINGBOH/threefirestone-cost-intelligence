@@ -2,12 +2,16 @@ import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Brain, GraduationCap, Link, Cpu, BookCopy, Zap, Reply, Cog } from 'lucide-react';
+import { Brain, GraduationCap, BookCopy, Reply, TrendingDown, ShieldCheck, ClipboardCheck } from 'lucide-react';
 
 export function Chapter4Section() {
   const learningParadigmsImage = PlaceHolderImages.find(p => p.id === 'learning-paradigms');
   const neuralNetworkImage = PlaceHolderImages.find(p => p.id === 'neural-network');
   const backpropagationImage = PlaceHolderImages.find(p => p.id === 'backpropagation');
+  const gradientDescentImage = PlaceHolderImages.find(p => p.id === 'gradient-descent');
+  const overfittingImage = PlaceHolderImages.find(p => p.id === 'overfitting');
+  const evaluationImage = PlaceHolderImages.find(p => p.id === 'model-evaluation');
+
 
   return (
     <section id="chapter-4" className="py-20 sm:py-32 bg-background/50">
@@ -88,7 +92,7 @@ export function Chapter4Section() {
         </div>
 
         {/* IV.3 Backpropagation */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
           <div className="animate-fade-in-up">
             <Badge variant="secondary" className="mb-4">IV.3 反向传播算法</Badge>
             <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><Reply className="text-primary"/>AI如何从错误中学习</h3>
@@ -117,6 +121,100 @@ export function Chapter4Section() {
             )}
           </div>
         </div>
+
+        {/* IV.4 Gradient Descent */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
+          <div className="relative animate-fade-in-up order-last lg:order-first">
+            {gradientDescentImage && (
+              <Image 
+                src={gradientDescentImage.imageUrl} 
+                alt={gradientDescentImage.description}
+                width={600}
+                height={450}
+                className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
+                data-ai-hint={gradientDescentImage.imageHint}
+              />
+            )}
+          </div>
+          <div className="animate-fade-in-up order-first lg:order-last" style={{animationDelay: '0.3s'}}>
+            <Badge variant="secondary" className="mb-4">IV.4 梯度下降</Badge>
+            <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><TrendingDown className="text-primary"/>“顺山而下”找到最佳答案</h3>
+            <div className="space-y-4 text-muted-foreground">
+              <p>如果说反向传播告诉了模型“哪里错了”，那么<strong className="text-foreground">梯度下降 (Gradient Descent)</strong> 就告诉模型“该如何改”。它是一种优化算法，通过计算损失函数的梯度（最陡峭的方向），一步步地调整模型参数，以找到让损失最小化的那个点。</p>
+              <Card className="bg-background/80 border-primary/20">
+                <CardHeader>
+                  <CardTitle className="font-headline text-lg">通俗比喻：蒙眼下山</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p>想象一个被蒙上眼睛的登山者要从山上走到谷底（损失最低点）。他该怎么办？他可以伸出脚，感受四周哪个方向坡度最陡峭，然后朝那个方向迈一小步。如此反复，他就能一步步地走到山谷的最低点。AI训练的过程，就是这样“摸索着”下山的过程。</p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+
+        {/* IV.5 Overfitting & Regularization */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
+          <div className="animate-fade-in-up">
+            <Badge variant="secondary" className="mb-4">IV.5 过拟合与正则化</Badge>
+            <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><ShieldCheck className="text-primary"/>防止AI“死记硬背”</h3>
+            <div className="space-y-4 text-muted-foreground">
+              <p><strong className="text-foreground">过拟合 (Overfitting)</strong> 指的是模型在训练数据上表现完美，但在新的、未见过的数据上表现糟糕，因为它学到的不是通用规律，而是训练数据的特定噪声。<strong className="text-foreground">正则化 (Regularization)</strong> 是一种技术，通过给模型的复杂性增加“惩罚”，来防止它变得过于复杂，从而提高其泛化能力。</p>
+              <Card className="bg-background/80 border-primary/20">
+                <CardHeader>
+                  <CardTitle className="font-headline text-lg">通俗比喻：学生备考</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p>一个学生如果把模拟题的所有答案都背了下来（过拟合），那他模拟考能得满分，但一到正式考试，题目稍微变一下，他就傻眼了。而聪明的学生会去理解题目背后的解题思路（学习通用规律）。正则化就像老师告诉学生：“不要搞题海战术，掌握核心公式更重要”，以此来限制学生的“记忆”行为，鼓励“理解”。</p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+           <div className="relative animate-fade-in-up" style={{animationDelay: '0.3s'}}>
+            {overfittingImage && (
+              <Image 
+                src={overfittingImage.imageUrl} 
+                alt={overfittingImage.description}
+                width={600}
+                height={450}
+                className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
+                data-ai-hint={overfittingImage.imageHint}
+              />
+            )}
+          </div>
+        </div>
+
+        {/* IV.6 Model Evaluation */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="relative animate-fade-in-up order-last lg:order-first">
+            {evaluationImage && (
+              <Image 
+                src={evaluationImage.imageUrl} 
+                alt={evaluationImage.description}
+                width={600}
+                height={450}
+                className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
+                data-ai-hint={evaluationImage.imageHint}
+              />
+            )}
+          </div>
+          <div className="animate-fade-in-up order-first lg:order-last" style={{animationDelay: '0.3s'}}>
+            <Badge variant="secondary" className="mb-4">IV.6 模型评估</Badge>
+            <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><ClipboardCheck className="text-primary"/>给AI打分：它到底好不好？</h3>
+            <div className="space-y-4 text-muted-foreground">
+              <p>我们如何知道一个模型是好是坏？这就需要<strong className="text-foreground">模型评估</strong>。通过使用一系列指标（如准确率、精确率、召回率、F1分数等），我们可以在独立的测试集上衡量模型的性能。对于LLM，我们还使用如<strong className="text-foreground">困惑度 (Perplexity)</strong> 和 <strong className="text-foreground">BLEU分数</strong>来评估其语言生成质量。</p>
+              <Card className="bg-background/80 border-primary/20">
+                <CardHeader>
+                  <CardTitle className="font-headline text-lg">通俗比喻：模拟考试</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p>训练模型就像学生平时上课和做作业。而模型评估就像是期末的模拟考试。我们用一套学生没见过的题（测试集）来测试他，看看他的综合能力到底如何。不同的分数（评估指标）从不同侧面反映了学生的能力，比如选择题得分率（准确率）、作文流畅度（困惑度）等。只有在模拟考中表现出色，我们才能相信他真正学有所成。</p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );
