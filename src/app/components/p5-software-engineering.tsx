@@ -28,14 +28,14 @@ export function Chapter5Section() {
             <Badge variant="secondary" className="mb-4">V.1 编程范式</Badge>
             <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><Blocks className="text-primary"/>代码的组织艺术：OOP vs FP</h3>
             <div className="space-y-4 text-muted-foreground">
-              <p>编程范式是组织代码的两种不同哲学思想。<strong>面向对象编程 (OOP)</strong> 就像搭积木，每个积木（对象）都有自己的属性和功能。而<strong>函数式编程 (FP)</strong> 则像一条精密的生产线，数据像水流一样通过一个个管道（函数），每个管道只负责一道工序。</p>
+              <p>编程范式是组织代码的不同哲学。<strong>面向对象编程 (OOP)</strong>，由Alan Kay等先驱倡导，它将世界看作对象的集合。而由Lisp语言之父John McCarthy奠基的<strong>函数式编程 (FP)</strong> 则将世界看作数学函数的组合。</p>
               <Card className="bg-background/50 border-primary/20">
                 <CardHeader>
                   <CardTitle className="font-headline text-lg">通俗比喻：乐高积木 vs 生产线</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p><strong className="text-primary">OOP (积木)</strong>：你可以把复杂的汽车拆解成一个个独立的积木块（轮子、车身、引擎），每个积木块可以单独设计和替换。</p>
-                  <p><strong className="text-primary">FP (生产线)</strong>：数据像原材料一样进入生产线，经过一个个固定的处理站（纯函数），最终产出成品，整个过程清晰可预测，不会有意外发生。</p>
+                  <p><strong className="text-primary">OOP (积木)</strong>：你可以把复杂的汽车拆解成一个个独立的积木块（轮子、车身、引擎），每个积木块（对象）有自己的属性和功能，可以单独设计和替换。</p>
+                  <p><strong className="text-primary">FP (生产线)</strong>：数据像原材料一样进入生产线，经过一个个固定的处理站（纯函数），最终产出成品，整个过程清晰可预测，没有副作用。</p>
                 </CardContent>
               </Card>
             </div>
@@ -46,7 +46,7 @@ export function Chapter5Section() {
                 src={programmingParadigmsImage.imageUrl}
                 alt={programmingParadigmsImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={programmingParadigmsImage.imageHint}
               />
@@ -62,7 +62,7 @@ export function Chapter5Section() {
                 src={solidPrinciplesImage.imageUrl}
                 alt={solidPrinciplesImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={solidPrinciplesImage.imageHint}
               />

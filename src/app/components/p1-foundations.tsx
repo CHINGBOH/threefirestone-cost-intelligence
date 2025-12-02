@@ -29,13 +29,13 @@ export function Chapter1Section() {
             <Badge variant="secondary" className="mb-4">I.1 数字化基础</Badge>
             <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><ToyBrick className="text-primary"/>抽象层级与计算模型</h3>
             <div className="space-y-4 text-muted-foreground">
-              <p>形式计算模型中，<strong className="text-foreground">有限自动机 (Finite Automata, FA)</strong> 是最基本的模型之一，它能识别正则语言，在编译器的词法分析等领域发挥着重要作用。而<strong className="text-foreground">图灵机</strong>作为通用的计算模型，定义了“可计算性”的理论边界。</p>
+              <p>在计算理论的圣殿中，<strong className="text-foreground">图灵机</strong>不仅是一个抽象模型，更是“可计算性”的黄金标准。由艾伦·图灵在20世纪30年代提出的这个思想实验，为现代计算机的诞生奠定了理论基石，并帮助盟军在二战中破译了德军的“英格玛”密码，深刻地影响了历史进程。</p>
               <Card className="bg-background/50 border-primary/20">
                 <CardHeader>
-                  <CardTitle className="font-headline text-lg">通俗比喻：自动售货机</CardTitle>
+                  <CardTitle className="font-headline text-lg">通俗比喻：拥有无限纸带的机器人</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p>想象一台自动售货机。它只有有限的几种状态（“待机”、“已投币”、“选择商品”、“出货”）。你投入硬币（输入），它的状态就发生改变。它只能识别预设的指令（比如按某个按钮），这就是一个简单的“自动机”。它无法像人一样思考，只能按照写好的规则执行。</p>
+                  <p>想象一个机器人，它面前有一条无限长的纸带，纸带被分成一个个小格子。机器人可以读取格子里的符号，改写它，然后向左或向右移动一格。给它一套简单的规则，它就能执行任何你能想到的计算任务——这就是图灵机的本质。它定义了所有计算机能力的理论上限。</p>
                 </CardContent>
               </Card>
             </div>
@@ -46,7 +46,7 @@ export function Chapter1Section() {
                 src={automataImage.imageUrl} 
                 alt={automataImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={automataImage.imageHint}
               />
@@ -62,7 +62,7 @@ export function Chapter1Section() {
                 src={complexityImage.imageUrl} 
                 alt={complexityImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={complexityImage.imageHint}
               />
@@ -72,15 +72,15 @@ export function Chapter1Section() {
             <Badge variant="secondary" className="mb-4">I.2 计算复杂性</Badge>
             <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><Puzzle className="text-primary"/>可行性与难解性 (P vs NP)</h3>
             <div className="space-y-4 text-muted-foreground">
-              <p><strong className="text-foreground">P类问题</strong>指那些能被计算机“快速”解决的问题（在多项式时间内）。而<strong className="text-foreground">NP类问题</strong>指那些解的正确性可以被“快速”验证的问题。一个核心问题是：是否所有NP问题都是P问题（即P=NP?）</p>
-               <p><strong className="text-foreground">NP-Complete (NPC)</strong> 问题是NP中最难的一类。如果解决了任何一个NPC问题，就等于解决了所有NP问题。</p>
+              <p><strong className="text-foreground">P类问题</strong>指那些能被计算机“快速”解决的问题（在多项式时间内）。而<strong className="text-foreground">NP类问题</strong>指那些解的正确性可以被“快速”验证的问题。计算机科学中最著名的千禧年大奖难题之一就是：是否所有NP问题都是P问题（即P=NP?）</p>
+               <p><strong className="text-foreground">NP-Complete (NPC)</strong> 问题是NP中最难的一类。如果解决了任何一个NPC问题，就等于解决了所有NP问题。旅行商问题(TSP)就是一个典型的NPC问题。</p>
               <Card className="bg-background/50 border-primary/20">
                 <CardHeader>
                   <CardTitle className="font-headline text-lg">通俗比喻：拼图游戏</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p><strong className="text-primary">验证一个解 (容易 - NP)</strong>：给你一幅完成的拼图，你一眼就能看出它拼得对不对。</p>
-                  <p><strong className="text-primary">找到一个解 (困难 - NPC)</strong>：给你一盒打乱的拼图碎片，让你从零开始把它拼好，这可能要花上很久很久的时间。旅行推销员问题 (TSP) 就像一个超级复杂的拼图游戏。</p>
+                  <p><strong className="text-primary">找到一个解 (可能困难 - NPC)</strong>：给你一盒打乱的拼图碎片，让你从零开始把它拼好，这可能要花上很久很久的时间。P vs NP问题就在问：对于所有这类“容易验证”的难题，是否都存在一个“快速找到解”的聪明方法？</p>
                 </CardContent>
               </Card>
             </div>
@@ -93,7 +93,7 @@ export function Chapter1Section() {
             <Badge variant="secondary" className="mb-4">I.3 信息的本质</Badge>
             <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><Calculator className="text-primary"/>香农理论与不确定性</h3>
             <div className="space-y-4 text-muted-foreground">
-              <p>信息论提供了一个量化信息、冗余和噪声的数学框架。<strong className="text-foreground">信息熵 H(X)</strong> 是其核心概念，它定量衡量了数据源的不确定性。熵越高，不确定性越大，预测难度越高。</p>
+              <p>克劳德·香农在1948年发表的论文《通信的数学理论》开创了信息论时代。其核心概念<strong className="text-foreground">信息熵 H(X)</strong> 定量衡量了数据源的不确定性。熵越高，不确定性越大，预测难度越高。</p>
               <p>LLM的评估指标<strong className="text-foreground">困惑度 (Perplexity)</strong>，就直接源于信息熵。最小化模型的交叉熵损失，本质上就是在最小化模型对文本序列预测的不确定性。</p>
               <Card className="bg-background/50 border-primary/20">
                 <CardHeader>
@@ -111,7 +111,7 @@ export function Chapter1Section() {
                 src={entropyImage.imageUrl} 
                 alt={entropyImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={entropyImage.imageHint}
               />

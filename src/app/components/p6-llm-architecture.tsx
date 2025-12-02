@@ -30,13 +30,13 @@ export function Chapter6Section() {
             <Badge variant="secondary" className="mb-4">VI.1 Transformer架构</Badge>
             <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><ToyBrick className="text-primary"/>LLM的核心骨架</h3>
             <div className="space-y-4 text-muted-foreground">
-              <p>LLM之所以如此强大，离不开一个名为<strong className="text-foreground">Transformer</strong>的神奇架构。它的核心武器是<strong className="text-foreground">自注意力机制 (Self-Attention)</strong>，这让模型在处理一句话时，能够同时“关注”到所有词语，并理解它们之间的复杂关系。</p>
+              <p>LLM的惊人能力，源于2017年Google一篇名为<em className="text-foreground/80">《Attention Is All You Need》</em>的开创性论文中提出的<strong className="text-foreground">Transformer</strong>架构。其核心武器<strong className="text-foreground">自注意力机制 (Self-Attention)</strong>彻底改变了序列处理的方式，让模型能同时“关注”所有词语，理解长距离依赖关系。</p>
               <Card className="bg-background/80 border-primary/20">
                 <CardHeader>
-                  <CardTitle className="font-headline text-lg">通俗比喻：拥有超强记忆力的阅读机器人</CardTitle>
+                  <CardTitle className="font-headline text-lg">通俗比喻：拥有上帝视角的阅读者</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p>想象一个阅读机器人，当它读到“苹果”这个词时，它不仅知道这是个水果，还能立刻联想到句子里的“乔布斯”，从而明白这里指的是“苹果公司”。Transformer就像这个机器人，能在一瞬间捕捉到全局信息，理解上下文的真正含义。</p>
+                  <p>想象一个阅读者，当他读到“苹果”时，不仅知道这是个水果，还能立刻看到句子另一端的“乔布斯”，从而瞬间明白这里指的是“苹果公司”。Transformer就像这个拥有“全局视野”的读者，能在一瞬间捕捉到所有词语之间的内在联系，理解上下文的真正含义。</p>
                 </CardContent>
               </Card>
             </div>
@@ -47,7 +47,7 @@ export function Chapter6Section() {
                 src={transformerImage.imageUrl} 
                 alt={transformerImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={transformerImage.imageHint}
               />
@@ -63,7 +63,7 @@ export function Chapter6Section() {
                 src={peftImage.imageUrl} 
                 alt={peftImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={peftImage.imageHint}
               />
@@ -109,7 +109,7 @@ export function Chapter6Section() {
                 src={forgettingImage.imageUrl} 
                 alt={forgettingImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={forgettingImage.imageHint}
               />
@@ -125,7 +125,7 @@ export function Chapter6Section() {
                 src={inferenceImage.imageUrl} 
                 alt={inferenceImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={inferenceImage.imageHint}
               />

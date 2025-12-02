@@ -52,7 +52,7 @@ export function Chapter4Section() {
                 src={learningParadigmsImage.imageUrl} 
                 alt={learningParadigmsImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={learningParadigmsImage.imageHint}
               />
@@ -68,7 +68,7 @@ export function Chapter4Section() {
                 src={neuralNetworkImage.imageUrl} 
                 alt={neuralNetworkImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={neuralNetworkImage.imageHint}
               />
@@ -78,7 +78,7 @@ export function Chapter4Section() {
             <Badge variant="secondary" className="mb-4">IV.2 神经网络架构</Badge>
             <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><Brain className="text-primary"/>模仿大脑的思考网络</h3>
             <div className="space-y-4 text-muted-foreground">
-              <p>神经网络模仿人脑神经元的工作方式，由许多“神经元”节点组成。而<strong className="text-foreground">激活函数</strong>是其中的关键，它决定了神经元是否应该被“激活”，并为网络引入了非线性，使得网络能够学习复杂的模式。</p>
+              <p>神经网络的思想源远流长，其雏形可以追溯到1958年由弗兰克·罗森布拉特发明的<strong className="text-foreground">感知机(Perceptron)</strong>。然而，由于其局限性，神经网络研究曾一度陷入低谷（即“AI寒冬”）。直到<strong className="text-foreground">激活函数</strong>引入了关键的非线性，才使得网络能够学习真正复杂的模式。</p>
               <Card className="bg-background/80 border-primary/20">
                 <CardHeader>
                   <CardTitle className="font-headline text-lg">通俗比喻：大脑的“开关”</CardTitle>
@@ -97,7 +97,7 @@ export function Chapter4Section() {
             <Badge variant="secondary" className="mb-4">IV.3 反向传播算法</Badge>
             <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><Reply className="text-primary"/>AI如何从错误中学习</h3>
             <div className="space-y-4 text-muted-foreground">
-              <p><strong className="text-foreground">反向传播 (Backpropagation)</strong> 是训练神经网络的核心动力。它通过计算预测结果与真实答案之间的“差距”（损失），然后从后往前，逐层告诉每个神经元应该如何调整自己，以便下次做得更好。</p>
+              <p>如果说感知机是神经网络的“身体”，那<strong className="text-foreground">反向传播 (Backpropagation)</strong> 算法就是它的“灵魂”。在1986年由Rumelhart、Hinton和Williams等人重新发扬光大后，它成为了训练神经网络的核心动力，直接点燃了第二次AI革命的浪潮。它通过计算“差距”，从后往前逐层告诉每个神经元如何调整自己。</p>
               <Card className="bg-background/80 border-primary/20">
                 <CardHeader>
                   <CardTitle className="font-headline text-lg">通俗比喻：多米诺骨牌倒推</CardTitle>
@@ -114,7 +114,7 @@ export function Chapter4Section() {
                 src={backpropagationImage.imageUrl} 
                 alt={backpropagationImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={backpropagationImage.imageHint}
               />
@@ -130,7 +130,7 @@ export function Chapter4Section() {
                 src={gradientDescentImage.imageUrl} 
                 alt={gradientDescentImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={gradientDescentImage.imageHint}
               />
@@ -176,7 +176,7 @@ export function Chapter4Section() {
                 src={overfittingImage.imageUrl} 
                 alt={overfittingImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={overfittingImage.imageHint}
               />
@@ -192,7 +192,7 @@ export function Chapter4Section() {
                 src={evaluationImage.imageUrl} 
                 alt={evaluationImage.description}
                 width={600}
-                height={450}
+                height={400}
                 className="rounded-lg shadow-2xl w-full aspect-[4/3] object-cover transition-transform duration-300 hover:scale-105"
                 data-ai-hint={evaluationImage.imageHint}
               />
