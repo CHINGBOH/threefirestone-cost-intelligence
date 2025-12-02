@@ -13,14 +13,14 @@ export function Chapter9Section() {
         <div className="mx-auto max-w-3xl text-center mb-16">
           <Network className="mx-auto h-12 w-12 text-primary animate-bounce" />
           <h2 className="mt-4 text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
-            第九章：操作系统与网络
+            第九章：操作系统与网络：算力的调度师与搬运工
           </h2>
           <p className="mt-6 text-lg leading-8 text-foreground/80">
-            操作系统是软件与硬件的翻译官，网络则是连接信息孤岛的桥梁。它们是现代计算的隐形基石。
+            操作系统是软件与硬件的翻译官，网络则是连接信息孤岛的桥梁。它们是现代计算中调度和输送算力的隐形基石。
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
             <div className="relative animate-fade-in-up order-last lg:order-first">
             {osNetworkingImage && (
               <Image 
@@ -48,6 +48,29 @@ export function Chapter9Section() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="animate-fade-in-up">
+            <Badge variant="secondary" className="mb-4">IX.2 信息的搬运工</Badge>
+            <h3 className="text-2xl font-semibold font-headline mb-4 flex items-center gap-2"><Globe className="text-primary"/>网络协议与数据传输</h3>
+            <div className="space-y-4 text-muted-foreground">
+              <p>在分布式计算和云AI服务中，算力常常在云端。网络就是连接用户与云端算力的“高速公路”。<strong className="text-foreground">TCP/IP协议栈</strong>定义了数据如何在网络中被打包、寻址、传输和接收的规则。</p>
+              <p>网络带宽和延迟直接决定了我们能多快地将数据（AI模型的输入）发送到云端并接收结果。对于需要海量数据传输的分布式训练，高速网络（如InfiniBand）是保证算力不“饿肚子”的关键。</p>
+              <Card className="bg-background/80 border-primary/20">
+                <CardHeader>
+                  <CardTitle className="font-headline text-lg">通俗比喻：餐厅的传菜系统</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p>网络就像餐厅的传菜系统。一个订单（数据包）写好后，需要通过一个可靠的通道（TCP）送到厨房（服务器）。菜做好后，又需要通过这个通道准确无误地送到顾客面前。如果通道太窄（低带宽）或者服务员走得太慢（高延迟），即使厨房出菜再快，顾客也会等得不耐烦。</p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+           <div className="relative animate-fade-in-up flex items-center justify-center" style={{animationDelay: '0.3s'}}>
+             <Globe className="w-48 h-48 text-primary/20 animate-pulse" strokeWidth={0.5} />
+             <Globe className="w-32 h-32 text-primary/40 absolute animate-spin-slow" />
           </div>
         </div>
       </div>
