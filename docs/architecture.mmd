@@ -1,0 +1,12 @@
+graph TD
+  User[User] --> Web[React RAG dashboard]
+  Web --> Gateway[Go gateway and WebSocket services]
+  Gateway --> API[TypeScript orchestration API]
+  API --> Retrieval[Python retrieval service]
+  Retrieval --> OCR[OCR pipeline]
+  Retrieval --> Hybrid[Hybrid retrieval and rerank]
+  Hybrid --> Vector[(Milvus / pgvector / Qdrant)]
+  Hybrid --> Text[(PostgreSQL Chinese FTS)]
+  Hybrid --> Cache[(Redis)]
+  API --> LLM[LLM provider via environment variables]
+  LLM --> Web

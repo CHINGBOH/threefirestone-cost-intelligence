@@ -1,0 +1,188 @@
+.pipeline-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px 40px;
+}
+
+.pipeline-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .pipeline-grid { grid-template-columns: 1fr; }
+}
+
+.pipeline-card {
+  padding: 22px 24px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-default);
+  border-radius: 12px;
+}
+
+.pipeline-card h2 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 18px;
+  color: var(--text-primary);
+  letter-spacing: -0.2px;
+}
+
+/* ── 知识库状态 ─────────────────────── */
+
+.health-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.health-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: var(--bg-primary);
+  border-radius: 8px;
+  border: 1px solid var(--border-default);
+}
+
+.health-icon { font-size: 14px; }
+
+.health-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.health-status {
+  margin-left: auto;
+  font-size: 11px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.health-label {
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+.health-footer {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-default);
+  font-size: 12px;
+  color: var(--text-muted);
+  display: flex;
+  justify-content: space-between;
+}
+
+.loading-text {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+/* ── 文档上传 ─────────────────────── */
+
+.upload-zone {
+  border: 1px dashed var(--border-default);
+  border-radius: 10px;
+  padding: 36px 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.18s ease, background 0.18s ease;
+}
+
+.upload-zone:hover {
+  border-color: var(--text-muted);
+  background: var(--bg-primary);
+}
+
+.upload-hint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.hint-formats {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.4px;
+}
+
+.file-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+.file-name {
+  max-width: 280px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.file-size {
+  color: var(--text-muted);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+
+.upload-btn {
+  width: 100%;
+  margin-top: 14px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.18s ease;
+}
+
+.upload-btn:hover { opacity: 0.85; }
+.upload-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.upload-result {
+  margin-top: 12px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 12px;
+  border: 1px solid transparent;
+}
+
+.upload-result.success {
+  background: rgba(22, 163, 74, 0.08);
+  color: #22c55e;
+  border-color: rgba(22, 163, 74, 0.22);
+}
+
+.upload-result.error {
+  background: rgba(220, 38, 38, 0.08);
+  color: #f87171;
+  border-color: rgba(220, 38, 38, 0.22);
+}
+
+/* ── Mobile ──────────────────────── */
+
+@media (max-width: 768px) {
+  .pipeline-page   { padding: 0 16px 32px; }
+  .pipeline-card   { padding: 18px; }
+
+  .upload-zone     { padding: 24px 16px; }
+}
+
+@media (max-width: 480px) {
+  .pipeline-page   { padding: 0 12px 24px; }
+
+  .health-grid     { grid-template-columns: 1fr; }
+}
