@@ -1,0 +1,11 @@
+graph TD
+  User[User] --> UI[Streamlit app]
+  UI --> Agent[LangGraph RAG agent]
+  Agent --> Retriever[Retrieval tool]
+  Retriever --> VectorDB[(PostgreSQL + pgvector)]
+  Docs[Documents] --> Loader[Document loaders]
+  Loader --> Splitter[Chunking]
+  Splitter --> Embed[HuggingFace embeddings]
+  Embed --> VectorDB
+  Agent --> LLM[DeepSeek-compatible API]
+  LLM --> UI
