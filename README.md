@@ -1,5 +1,14 @@
-# Firebase Studio
+# RAG Knowledge Base
 
-This is a NextJS starter in Firebase Studio.
+Next.js RAG knowledge-base prototype with AI-assisted retrieval/product interface.
 
-To get started, take a look at src/app/page.tsx.
+## Architecture
+
+See [`docs/architecture.md`](docs/architecture.md) for the Mermaid system overview.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
