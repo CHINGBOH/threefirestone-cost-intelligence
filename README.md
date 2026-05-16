@@ -427,6 +427,21 @@ pytest tests/test_vector_store.py tests/test_vector_search_backend.py tests/test
 
 ---
 
+
+## 参考资料
+
+### RAG_FullStack
+LangGraph + DeepSeek + PostgreSQL 的 RAG 全栈应用参考
+
+📁 [references/rag-fullstack/](references/rag-fullstack/)
+
+### RAG-knowledge-base
+Gemini + DeepSeek 集成的 RAG 知识库参考
+
+📁 [references/rag-knowledge-base/](references/rag-knowledge-base/)
+
+---
+
 ## 📄 许可证
 
 MIT License
