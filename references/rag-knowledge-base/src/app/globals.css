@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .dark {
+    --background: 22 28% 8%; /* Warm, very dark gray-brown */
+    --foreground: 45 30% 90%; /* Off-white with a hint of warmth */
+    --card: 22 25% 12%; /* Slightly lighter than background */
+    --card-foreground: 45 30% 90%;
+    --popover: 22 28% 8%;
+    --popover-foreground: 45 30% 90%;
+    --primary: 40 95% 55%; /* Bright, rich amber/gold */
+    --primary-foreground: 30 80% 5%;
+    --secondary: 22 20% 15%;
+    --secondary-foreground: 45 30% 90%;
+    --muted: 22 20% 15%;
+    --muted-foreground: 35 15% 55%;
+    --accent: 40 85% 65%; /* Lighter gold for accents */
+    --accent-foreground: 30 80% 5%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 85.7% 97.3%;
+    --border: 22 20% 18%; /* Border with a hint of warmth */
+    --input: 22 20% 18%;
+    --ring: 40 95% 55%;
+    --radius: 0.8rem;
+  }
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+  ::selection {
+    @apply bg-primary/20;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/30 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/50;
+  }
+}
